@@ -1,6 +1,6 @@
 # Sprint Review 
 
-The review meeting will take place on Sundays(biweekly) after the end of each Sprint, in the
+The review meeting will take place on Sundays(biweekly) for an hour, after the end of each Sprint, in the
 spirit of keeping these meetings concise. During this meeting the product owner will walk the
 team through what is “done” and “not done” on the backlog. Thereafter, each member of the
 team will demonstrate what they have worked on for that sprint and answer questions on
