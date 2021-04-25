@@ -161,7 +161,7 @@ The following two videos outline our MVP:
 ### Alpha Release
 
 ### [System Health Reporting](docs/gate4-systemhealthreporting/systemhealthreporting.md)
-Details the alpha release of the system health reporting component of this project.
+By [Siddharth Bhardwaj](https://github.com/SidB16), this section details the alpha release of the system health reporting component of this project.
 
 ### [Alpha Design](docs/gate4/Alpha.md)
 Section focuses on the new pneumatic design and explains the functiong, relevance and configuration of each component.
@@ -179,7 +179,7 @@ Section focuses on product release timeline for Alpha and future releases.
 ### Beta Release
 
 ### [System Health Reporting Application](http://webdashboard-env.eba-kz9hmne2.us-east-1.elasticbeanstalk.com/)
-Beta release of the system health reporting component of this project. Shows the website built in the beta release of this solution.
+By [Siddharth Bhardwaj](https://github.com/SidB16), this is the Beta release of the system health reporting component of this project. Shows the website built in the beta release of this solution.
 
 ### [Beta Design](docs/gate5/Beta.md)
 Beta Release Context, Current status of design, and Roadmap for Final Release
