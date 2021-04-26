@@ -42,7 +42,8 @@ Compression: The current implementation affords complete compression of the self
 </li>
 </ul>
 
-### Design Architecture
+### Design Architecture <img src="images/icon/prototype.png" alt=" " >
+
 ### Design Implementation ---Video
 
 ### Project Management
