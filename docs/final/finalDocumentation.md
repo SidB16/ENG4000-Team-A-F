@@ -79,8 +79,14 @@ Pneumatic Cylinder (DSNU-25-100-PPS-A): Connects to ports 2 and 4 of the solenoi
     </li>
 <li>
 Couplings used to connect different components:
+<ul>
+    </li>
 Male coupler- AD-1/4NPT-G1/4-I Adapter - QS-G1/4-6: connects the air compressor to the air preparation unit via PUN-H-6X1-BL tubing 
+    </li>
+    <li>
 QS-G1/4-6: connects the air preparation unit to the air compressor via PUN-H-6X1-BL tubing 
+    </li>
+    </ul>
 QS-G1/4-6: connects the air preparation unit to the solenoid via PUN-H-6X1-BL tubing    
 QS-G1/8-6: connects valve 1 of the solenoid to the air preparation unit via PUN-H-6X1-BL tubing
 QS-G1/8-6: connects valve 2 of the solenoid valve to the GRLA-1/8-QS-6-RS-D connected to the back end of the pneumatic cylinder via PUN-H-6X1-BL tubing
