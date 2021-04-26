@@ -67,7 +67,7 @@ Compression: The current implementation affords complete compression of the self
 
 ### Design Architecture
 
-  #### Pneumatic System-as-Built: 
+    ##Pneumatic System-as-Built: 
 <ul>
 <li>
 Air Compressor: Will be able to compress air upto 100psi and contain an inbuilt air reservoir such that the compressor does not run all the time, we recognize that they can be loud if kept running for long periods of time which could discomfort patients. The volume of the reservoir we can include for our POC will depend on our budget constraints for the time being.Currently for our design we are setting the minimum psi to be 80.
@@ -229,6 +229,11 @@ On a more practical level, I would advise myself to get in contact with mechanic
 #### Shivani Joshi
 
 #### Priyam Shah
+<ul>
+<li>
+This project journey has been a roller coaster of failures and successes.I worked with a team of all computer and software engineers but as we all wanted to work on a common goal we decided to merge our strengths and weaknesses to get to the final product.A lot of times I felt like it would have been nicer if there was a diverse team as our project was majorly mechanical. But that forced me to learn a lot throughout this journey.Not only was my behavioural skill set sharpened but also I learnt a lot of technical and hands on skills.In terms of behavioural skills I learnt good communication skills while engaging with the stakeholders, teammates and the supervisor. I improved on my time management skills due to the new project management technique of an agile fashion.In terms of technical skills, with little expertise in the mechanical upfront and electrical but throughout the course I learnt how to work with a 3D model software, how pneumatic pumping mechanism works as well as how to assemble components together.Even as a computer engineer, I never used a raspberry pi or a relay and so I understood the mechanism and the working behind it as to how it is connected and what it actually does.Moreover, in terms of general life skills I learnt to take criticism positively as well as not panic when something doesn't go right but figure out another way instead.
+</li>
+</ul>
 
 #### Areeba Abidi
 
