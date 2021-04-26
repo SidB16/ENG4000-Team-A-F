@@ -1,6 +1,6 @@
 ### Page Index
--[Executive Summary](#executive-summary) <br>
--[Design Architecture](#design-architecture) <br>
+-[Executive Summary](#executive-summary) 
+-[Design Architecture](#design-architecture) 
 -[Design Implementation](#design-implentation)<br>
 -[Project Management](#project-management)<br>
 -[Financial Management](#financial-management)<br>
