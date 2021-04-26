@@ -53,16 +53,16 @@ Compression: The current implementation affords complete compression of the self
 </ul>
 
 ***
-<img src="images/icons/prototype.png" alt=" " width="100" height="100" > 
+<img src="images/icons/prototype.png" alt=" " width="100" height="100"> 
 
 ### Design Architecture
  
 ***
-<img src="images/icons/construction.png" alt=" " width="100" height="100" >
+<img src="images/icons/construction.png" alt=" " width="100" height="100">
 
 ### Design Implementation ---Video
 ***
-<img src="images/icons/agile-project-management-vector.png" alt=" " width="100" height="100" 
+<img src="images/icons/creative.png" alt=" " width="100" height="100">
 ### Project Management 
 
 Although we are an agile team, for the winter semester we modified our project management style, using a waterfall-agile hybrid approach for the alpha release, and an agile approach for the beta and final release.  
