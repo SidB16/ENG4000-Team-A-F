@@ -131,47 +131,7 @@ In trying to make our design portable we realized that making a compact carriabb
 </li>
 </ul>
 
-#### Electronic System-as-Built: 
-<ul>
-<li>    
-Solenoid Valve/5-2 Valve (VUVG-L14-M52-AT-G18-1R8L): The solenoid’s power will switch between 24V and 0V based on the rate at which we need the cylinder to pump. For a rate of 14 breaths/min, 24V is supplied every 3s for 1s and 0V is supplied every 1s for 3s. The power signal will be regulated via a Raspberry Pi connected to a power supply via a relay. 
- </li>
- <li>
-Proximity Sensor (SMT-8M-A-PS-24V-E-0.3-M8D): This sensor is mounted to the front of the pneumatic cylinder via a sensor holder. It has a small magnet that keeps a track of the piston motion. It is powered by a 24V signal and supplies a feedback signal of 24V back to the Raspberry Pi which is read via a GPIO (a voltage divider circuit is implemented to ensure we are only supplying 3.3V and under to the Pi). This sensor sends a digital true (1) if the piston is retracted, this is also signaled by an LED turning on.  
-</li>
-<li>
-Proximity Sensor (SMT-8M-A-PS-24V-E-0.3-M8D): This sensor is mounted to the back of the pneumatic cylinder via a sensor holder. It has a small magnet that keeps a track of the piston motion. It is powered by a 24V signal and supplies a feedback signal of 24V back to the Raspberry Pi which is read via a GPIO (a voltage divider circuit is implemented to ensure we are only supplying 3.3V and under to the Pi). This sensor sends a digital true (1) if the piston is extended, this is also signaled by an LED turning on.  
-</li>  
-<ul> 
-<li>
-    Couplings used to connect different components:
- </li>
-<ul>   
-    
-<li> NEBU-M8G3-K-2.5-LE3: This is the connector attached to a Solenoid Valve </li>
 
-<ul>
-<li> This wire is connected on one end to the solenoid valve, the other end has 3 wires: black, blue and brown but only the blue and black ones are used. </li> 
-<li>    
-*[The blue wire is connected to GPIO pin 26 via the middle port and executes the switching mechanism between 24-0V. The first port is connected to 24V from the power supply to power the solenoid.</li>
-<li>
-The black wire is connected to the power supply ground.
-    </li>
-    <li>
-The brown wire is not connected to anything.
-        </li>
-    </ul>
-<li>    
-NEBU-M8G3-K-2.5-LE3 (2 pieces): This is the connector attached to a Proximity Sensor
-<ul>
-<li>
-This wire is connected on one end to the sensor, the other end, has 3 exposed wires: black, blue and brown.
-<li>
-<li> The black wire is connected to the voltage divider terminal, where the voltage drops from 24V to 3V by connecting a 10㏀ and 67㏀ resistors in series. A GPIO pin reads the output signal carried by the black signal (3.3V to signify 1 and 0V to signify 0)</li>
-<li>The blue wire is connected to the power supply ground. </li>
-<li>The brown wire is connected to 24V on the power supply, used to power the sensor</li>
- </ul>
- </ul>
 ***
 <img src="images/icons/construction.png" alt=" " width="100" height="100">
 
