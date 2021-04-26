@@ -6,8 +6,10 @@
     + [Architecture Diagram](#architecture-diagram)
     + [System State(s) Diagram](#system-states-diagram)
     + [Solution Sequence Diagram](#solution-sequence-diagram)
-    + 
-### Executive Summary <img src="images/icons/report.png" alt=" " width="40" height="40" > 
+    
+    
+ <img src="images/icons/report.png" alt=" " width="100" height="100" >     
+### Executive Summary
 
 The Covid-19 Pandemic has highlighted challenges in getting immediate access to ventilators or resuscitators especially for patients needing to be transported between medical facilities while experiencing hypoxia. 
 We learnt from our Stakeholders, doctors in Gujarat, India that in such scenarios the patient is manually ventilated using a BVM by ambulance personnel. These medical personnel can often be understaffed and overworked. Pumping a BVM for journeys of upto an hour pulls them away from other aspects of critical patient care, increasing fatigue and chances of  human error. 
