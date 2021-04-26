@@ -63,6 +63,7 @@ Compression: The current implementation affords complete compression of the self
 ### Design Implementation ---Video
 ***
 <img src="images/icons/creative.png" alt=" " width="100" height="100">
+
 ### Project Management 
 
 Although we are an agile team, for the winter semester we modified our project management style, using a waterfall-agile hybrid approach for the alpha release, and an agile approach for the beta and final release.  
@@ -136,7 +137,7 @@ https://docs.google.com/document/d/14mnJ_hAVgQfS5SkhmXBm52U9W-7HVQDcIqaKVMDcAnI/
 
 
 
-<img src="images/icons/creative.png" alt=" " width="100" height="100" >
+<img src="images/icons/video-tutorial.png" alt=" " width="100" height="100" >
 ### Lesson Learned/Reflection
 
 #### Jonathan Blumenfled
