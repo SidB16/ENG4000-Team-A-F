@@ -158,6 +158,7 @@ On a more practical level, I would advise myself to get in contact with mechanic
 
 
 <img src="images/icons/references.png" alt=" " width="100" height="100" >
+
 ### References
 <div>Icons made by <a href="https://www.flaticon.com/authors/wanicon" title="wanicon">wanicon</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
