@@ -18,20 +18,23 @@
 <img src="images/icons/report.png" alt=" " width="100" height="100" >  
 
 ### Executive Summary
-<p "text-align: justify">
-The Covid-19 Pandemic has highlighted challenges in getting immediate access to ventilators or resuscitators especially for patients needing to be transported between medical facilities while experiencing hypoxia. 
-We learnt from our Stakeholders, doctors in Gujarat, India that in such scenarios the patient is manually ventilated using a BVM by ambulance personnel. These medical personnel can often be understaffed and overworked. Pumping a BVM for journeys of upto an hour pulls them away from other aspects of critical patient care, increasing fatigue and chances of  human error. 
-We as a team decided to tackle this challenge by designing an automated BVM pumping mechanism that is cost-effective, compact, lightweight and robust. As strong advocates for echo-sustainability we were motivated to devise a solution which could reuse a lot of existing technology. Hence, the design showcased below will be an automated version of pre-existing and readily available medical resources with better assistive and failure detection features, making it a creative bio-tech solution. 
-Initially, leading up to the MVP after rigorous research and discussions with our Stakeholders we decided to attempt a solution which was similar to the ones tested in the industry, aka a motor driven pumping mechanism. We implemented this by refurbishing an unused 3D printer but we realized that the structure was quite bulky, intrusive, more suitable for bedside use, unable to compress the BVM sufficiently. We also found that most  of the other potential solutions were built around this mechanism. For our final product, we wanted the design to add minimal structural overhead and spatial inconvenience to the paramedics, patients and accompanying kin. 
-On exploring different design avenues, keeping our requirements in mind, we deduced that the Pneumatic Design was the best fit for our use case. We consulted with different industry experts who suggested Festo as the leading manufactures in the field. This design choice helped us make a unique, eco-friendly, portable and a compact design such that it could be easily embedded in an ambulance environment.
-</p>
+
+The Covid-19 Pandemic has highlighted challenges in getting immediate access to ventilators or resuscitators especially for patients needing to be transported between medical facilities while experiencing hypoxia. We learnt from our Stakeholders, doctors in Gujarat, India that in such scenarios the patient is manually ventilated using a BVM by ambulance personnel. These medical personnel can often be understaffed and overworked. Pumping a BVM for journeys of upto an hour pulls them away from other aspects of critical patient care, increasing fatigue and chances of  human error. 
+
+We as a team decided to tackle this challenge by designing an automated BVM pumping mechanism that is cost-effective, compact, lightweight and robust. As strong advocates for echo-sustainability we were motivated to devise a solution which could reuse a lot of existing technology. Hence, the design showcased below will be an automated version of pre-existing and readily available medical resources with better assistive and failure detection features, making it a creative bio-tech solution.
+
+Initially, leading up to the MVP after rigorous research and discussions with our Stakeholders we decided to attempt a solution which was similar to the ones tested in the industry, aka a motor driven pumping mechanism. We implemented this by refurbishing an unused 3D printer but we realized that the structure was quite bulky, intrusive, more suitable for bedside use, and was unable to compress the BVM sufficiently. We also found that most of the other potential solutions were built around this mechanism. So for our final product, we wanted the design to add minimal structural overhead and spatial inconvenience to the paramedics, patients and accompanying kin. 
+
+On exploring different design avenues, keeping our requirements in mind, we deduced that the Pneumatic Design was the best fit for our use case. We consulted with different industry experts who suggested Festo as the leading manufactures in the field. This design choice helped us make a unique, eco-friendly, portable and compact design such that it could be easily embedded in an ambulance environment.
+
+
 <h4> So what does our Product Do? </h4>
-<p align="center">
+
 Our product as-is meets all the criterias that we set out to achieve, they were decided on the basis of extensive research and stakeholder feedback. While remodeling our MVP design the following goals and requirements were concluded upon for the final product:
-</p>    
+
 <ul>
-  <li>
-Readily Sourced and Repairable: Each component used in making the automation mechanism is easily detachable and replaceable. The product facilitates manual pumping incase of a failure as a result of the aforementioned attributes. Most of our components have a Matrix Code which upon scanning directs the user to technical documentation corresponding to that component. The air tubing used can be detached from push in fittings by pressing down on them, allowing for modification in their length and substitution.
+<li>
+Readily Sourced and Repairable: Each component used in making the automation mechanism is easily detachable and replaceable. The product facilitates manual pumping incase of a failure as a result of the aforementioned attributes. Most of our components have a Matrix Code which upon scanning directs the user to a technical documentation corresponding to that component. The air tubing used can be detached from push in fittings by pressing down on them, allowing for modification in their length and substitution.
 </li>
 <li>
 No damage to the BVM: There is little to no scope of damaging the BVM by implementing our design as it accounts for a cushioning material placed on the piston end (by adding a sponge for the current design and a cushion to the metallic concave plate). The direction of motion in which the bag is mechanically pushed is in line with it’s orientation and the axis of the arm that it’s mounted on. 
@@ -59,6 +62,45 @@ Compression: The current implementation affords complete compression of the self
 <img src="images/icons/prototype.png" alt=" " width="100" height="100"> 
 
 ### Design Architecture
+
+    ##Pneumatic System-as-Built: 
+Air Compressor: Will be able to compress air upto 100psi and contain an inbuilt air reservoir such that the compressor does not run all the time, we recognize that they can be loud if kept running for long periods of time which could discomfort patients. The volume of the reservoir we can include for our POC will depend on our budget constraints for the time being.Currently for our design we are setting the minimum psi to be 80.
+Air Preparation Unit (MSB4-1/4:C4:J2-WP): This component has a filter at the bottom that separates excess dust or moisture coming in from the compressed air and drains these substances out from the auto drain attached. The top piece is the pressure regulator, it has a dial that allows us to configure the air pressure we wish to supply to the solenoid valve. The air prep unit was added to ensure the air being used was getting filtered before being supplied to the solenoid valve as moisture can wash away grease applied to the solenoid and within the cylinder rendering them unable to move. Sand and dust particles can also clog the valve as it requires 40 micron filtration. The auto drain will require periodic inspection(we suspect once a month) by ambulance staff to ensure it is not getting clogged and functional. Lastly a manual switch that allows us the ability to cut our air flow from the compressor to the rest of the components. We were planning on adding a pressure sensor here that would allow us to ensure the air compressor was functioning properly and that there were no clogs in the filter/regulator section that were causing the air pressure to drop, however, due to a budget crunch we decided to move forward with our POC without it.
+Solenoid Valve/5-2 Valve (VUVG-L14-M52-AT-G18-1R8L): This is a single coil valve that has 5 ports on it. The main air goes into this valve via port 1 as can be seen in the image above and flows out via ports 2 and 4 depending on whether 0 or 24V signal is being received (respectively). 
+Pneumatic Cylinder (DSNU-25-100-PPS-A): Connects to ports 2 and 4 of the solenoid valve and based on the air flow the piston in the cylinder either releases or retracts. This cylinder has a stroke of 100mm and is about 250mm in length. 2 sensors were mounted on the cylinder that check whether the piston is being deployed and retracted fully within a certain time frame, if not we can flag that as an error scenario which can then be troubleshooted to determine where the fault lies within the system.
+Couplings used to connect different components:
+Male coupler- AD-1/4NPT-G1/4-I Adapter - QS-G1/4-6: connects the air compressor to the air preparation unit via PUN-H-6X1-BL tubing 
+QS-G1/4-6: connects the air preparation unit to the air compressor via PUN-H-6X1-BL tubing 
+QS-G1/4-6: connects the air preparation unit to the solenoid via PUN-H-6X1-BL tubing    
+QS-G1/8-6: connects valve 1 of the solenoid to the air preparation unit via PUN-H-6X1-BL tubing
+QS-G1/8-6: connects valve 2 of the solenoid valve to the GRLA-1/8-QS-6-RS-D connected to the back end of the pneumatic cylinder via PUN-H-6X1-BL tubing
+QS-G1/8-6: connects the valve 4 of the solenoid valve to the GRLA-1/8-QS-6-RS-D connected to the front end of the  pneumatic cylinder via PUN-H-6X1-BL tubing
+UC-⅛ : is a silencer on valve 3 of the solenoid
+UC-⅛ : is a silencer on a valve 5 of the solenoid 
+GRLA-1/8-QS-6-RS-D: connects the valve 4 of the solenoid valve to the back end of the pneumatic cylinder
+GRLA-1/8-QS-6-RS-D: connects the valve 2 of the solenoid valve to the front end of the pneumatic cylinder
+SMBR-8-25:mounts on the top of  the pneumatic cylinder to hold the sensor 
+SMBR-8-25:mounts on the top of  the pneumatic cylinder to hold the sensor
+We plan on placing the air prep unit and the solenoid valve together at a location that is yet to be determined based on where other medical equipment and the air compressor are situated in the ambulance. These components will be placed inside of a casing (open from the top and bottom), that is easily accessible incase maintenance is required. 
+In trying to make our design portable we realized that making a compact carriabble ventilator would not be technically feasible because of special orientation requirements of the air prep unit (only ± 5°deflection from 90° allowed) so we opted to make a semi-portable design. Our design will be restricted to the ambulance but will allow the automated BVM pumping mechanism to be brought to a patient wherever they are situated, regardless of the height or placement of their bed. Our design does not require the medical professionals to provide extensions to the endotracheal tube or mask end, to connect with the BVM as we make sure our system enables all functionalities and conveniences a manual BVM provides.
+Electronic System-as-Built: 
+Solenoid Valve/5-2 Valve (VUVG-L14-M52-AT-G18-1R8L): The solenoid’s power will switch between 24V and 0V based on the rate at which we need the cylinder to pump. For a rate of 14 breaths/min, 24V is supplied every 3s for 1s and 0V is supplied every 1s for 3s. The power signal will be regulated via a Raspberry Pi connected to a power supply via a relay. 
+Proximity Sensor (SMT-8M-A-PS-24V-E-0.3-M8D): This sensor is mounted to the front of the pneumatic cylinder via a sensor holder. It has a small magnet that keeps a track of the piston motion. It is powered by a 24V signal and supplies a feedback signal of 24V back to the Raspberry Pi which is read via a GPIO (a voltage divider circuit is implemented to ensure we are only supplying 3.3V and under to the Pi). This sensor sends a digital true (1) if the piston is retracted, this is also signaled by an LED turning on.  
+Proximity Sensor (SMT-8M-A-PS-24V-E-0.3-M8D): This sensor is mounted to the back of the pneumatic cylinder via a sensor holder. It has a small magnet that keeps a track of the piston motion. It is powered by a 24V signal and supplies a feedback signal of 24V back to the Raspberry Pi which is read via a GPIO (a voltage divider circuit is implemented to ensure we are only supplying 3.3V and under to the Pi). This sensor sends a digital true (1) if the piston is extended, this is also signaled by an LED turning on.  
+Couplings used to connect different components:
+NEBU-M8G3-K-2.5-LE3: This is the connector attached to a Solenoid Valve
+This wire is connected on one end to the solenoid valve, the other end has 3 wires: black, blue and brown but only the blue and black ones are used.
+
+*[The blue wire is connected to GPIO pin 26 via the middle port and executes the switching mechanism between 24-0V. The first port is connected to 24V from the power supply to power the solenoid.]
+
+*[The black wire is connected to the power supply ground.
+The brown wire is not connected to anything.
+NEBU-M8G3-K-2.5-LE3 (2 pieces): This is the connector attached to a Proximity Sensor
+This wire is connected on one end to the sensor, the other end, has 3 exposed wires: black, blue and brown.]
+
+*[The black wire is connected to the voltage divider terminal, where the voltage drops from 24V to 3V by connecting a 10㏀ and 67㏀ resistors in series. A GPIO pin reads the output signal carried by the black signal (3.3V to signify 1 and 0V to signify 0).]
+*[The blue wire is connected to the power supply ground.]
+*[The brown wire is connected to 24V on the power supply, used to power the sensor]
  
 ***
 <img src="images/icons/construction.png" alt=" " width="100" height="100">
