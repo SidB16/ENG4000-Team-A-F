@@ -3,6 +3,7 @@
 - [Design Architecture](#design-architecture)
     + [Pneumatic System as Built](#pneumatic-system-as-built)
 - [Design Implementation](#design-implementation)
+- [Performance Analysis] (#performance-analysis)
 - [Project Management](#project-management)
 - [Reflection](#reflection)
     + [Jonathan Blumenfeld](#jonathan-blumenfeld)
@@ -114,10 +115,17 @@ UC-⅛ : is a silencer on a valve 5 of the solenoid
 <li>
 GRLA-1/8-QS-6-RS-D: connects the valve 4 of the solenoid valve to the back end of the pneumatic cylinder
 </li>
-<li> GRLA-1/8-QS-6-RS-D: connects the valve 2 of the solenoid valve to the front end of the pneumatic cylinder </li>
-<li> SMBR-8-25:mounts on the top of  the pneumatic cylinder to hold the sensor </li>
-<li> SMBR-8-25:mounts on the top of  the pneumatic cylinder to hold the sensor</li>
-  </ul>
+<li>
+GRLA-1/8-QS-6-RS-D: connects the valve 2 of the solenoid valve to the front end of the pneumatic cylinder
+</li>
+<li>
+SMBR-8-25:mounts on the top of  the pneumatic cylinder to hold the sensor 
+</li>
+<li>
+SMBR-8-25:mounts on the top of  the pneumatic cylinder to hold the sensor
+    </li>
+     </ul>
+ 
  <li>
 We plan on placing the air prep unit and the solenoid valve together at a location that is yet to be determined based on where other medical equipment and the air compressor are situated in the ambulance. These components will be placed inside of a casing (open from the top and bottom), that is easily accessible incase maintenance is required. 
 </li>
@@ -171,7 +179,6 @@ The brown wire is connected to 24V on the power supply, used to power the sensor
 Voltage Divider Circuit: This connects sensor output to the Pi.The wire carrying an output signal of 24V is attached to one end of a 67 ㏀ resistors connected in series with a 10㏀ resistor. The midpoint of this series connection drops the input voltage to 3.1 V, making it tolerant by the GPIOs on a Pi. The other end of this divider is connected to the Power Supply ground.
   </li>
         </ul>
-</ul>
 <li>
    
 Raspberry pi 4 Model b: This microcontroller is powered on with a power adapter (5V supply). The control code is written in a python script that runs on boot up. The code implements a switching mechanism for the solenoid. We switch between 24-0V at the rate of 14 breaths/min, the time intervals are mentioned in the code here (EMBED THIS). 
@@ -182,8 +189,23 @@ Relay: The relay is mounted on the Raspberry Pi microcontroller. Relay can conve
 </li>
 </ul>
 
+### Performance Analysis
+
+For our product to work as desired, the pneumatic components that draw power should be connected as mentioned above and powered on correctly. Once the circuits are made and pressurized air is provided, the piston will pump at 14 breaths/min. We ran several tests by modifying the periodic switching between 24-0V, successfully varying the pump rate between 12-20 breaths per minute. The duration of time the system is left running has little effect on the pump rate, deviation being ±1 breath/min. The 14 breaths/min were achieved by testing out different parameters for the time.sleep() function which is called twice, once during extension and again during retraction of the pneumatic cylinder piston, as seen in the code (embed). 
 
 
+The system is left running for about an hour to check for overheating and clogging, there were no anomalies in operation recorded. We did however note that a compressor that can pump upto 80psi would be sufficient as opposed to the max. 120psi one which has a large reservoir tank. The air compressor we connected to for testing had a holding capacity of 11.1L which proved to be quite small, leading to the compressor being turned on rather frequently(every 30 seconds). We noticed that with a pressure setting of 50psi, we were able to squeeze the bag a desirable amount but the pump rate reduced by a factor of -2 pumps/min. In order to achieve the 14 pumps/min rate we would have to tweek the time.sleep() parameters a bit but consuming air at a reduced pressure would increase the flow rate significantly, triggering the compressor to turn on every 10 seconds. However, in case of a loose connection or leakage low pressure air can do less physical harm whereas high pressure air reduces noise pollution but optimizes the air flow for the same pump rates. We wish to test this aspect further to strike a good balance between safety and efficiency.
+
+
+We confirmed with our Stakeholders that the compression rate achieved and the amount of torque provided by the pneumatic cylinder while squeezing the BVM ensured enough oxygen supply reached the patient’s lungs. We demonstrated the amount of air being pumped by attaching a balloon on the end of the expiratory valve of the BVM. The balloon inflated to a diameter of 9cm when I squeezed it by hand thoroughly and about 7cm when pumped using the automation. This experiment suggests that manual pumping can be irregular and unregulated which could lead to internal damage but a regulated system with controlled pumping is desirable as it is safer to use. 
+[Automated Pumping](https://www.youtube.com/watch?v=1stogvTAXRE&feature=youtu.be&ab_channel=AreebaAbidi)
+[Manual Pumping](https://www.youtube.com/watch?v=qQOZqJhlQgo&ab_channel=AreebaAbidi)
+
+
+We tried designing a barometer out of spare plastic tubing to compare the difference in the force distribution between the piston head being mounted by a cushion versus the metal head being exposed. We were unable to complete this test as our homemade barometer did not end up working, the tubing available to us was extremely short so everytime the BVM would be squeezed even by hand, the water would spout out (even though we tried adding very tiny amounts).
+
+
+The patient’s safety, convenience and comfort have been the backbone principles driving our innovation so when it came to implementing and operating the electrical components, we were equally cautious. We checked the voltage and power threshold for each component and made sure to measure the voltage and current passing through them, using a multimeter, before the circuits were made, preventing a short circuit. 
 
 
 
