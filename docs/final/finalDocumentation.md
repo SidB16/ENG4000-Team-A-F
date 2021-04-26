@@ -87,10 +87,8 @@ Work distribution breakdown: (Not perfectly to scale but provide a rough estimat
 ***
 
 
-<img src="images/icons/prototype.png" alt=" " width="40" height="40" >  
-### Financial Management
 
-### <img src="images/icons/economics.png" alt=" " width="40" height="40" >Project Management </h1>
+### <img src="images/icons/economics.png" alt=" " width="40" height="40" >Financial Management </h1>
 
 
 
