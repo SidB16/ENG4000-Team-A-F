@@ -44,15 +44,13 @@ Compression: The current implementation affords complete compression of the self
 </ul>
 
 ***
-### <img src="images/icons/report.png" alt=" " width="40" height="40" > Design Architecture
+### <img src="images/icons/prototype.png" alt=" " width="40" height="40" > Design Architecture
  
 ***
 ### <img src="images/icons/construction.png" alt=" " width="40" height="40" > Design Implementation ---Video
 ***
 
-### <img src="images/icons/agile-project-management-vector.png" alt=" " width="40" height="40" >
-
-Project Management </h1>
+### <img src="images/icons/agile-project-management-vector.png" alt=" " width="40" height="40" >Project Management </h1>
 
 
 
@@ -91,6 +89,10 @@ Work distribution breakdown: (Not perfectly to scale but provide a rough estimat
 
 <img src="images/icons/prototype.png" alt=" " width="40" height="40" >  
 ### Financial Management
+
+### <img src="images/icons/economics.png" alt=" " width="40" height="40" >Project Management </h1>
+
+
 
 
 
