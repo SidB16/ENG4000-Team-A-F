@@ -60,7 +60,7 @@ Compression: The current implementation affords complete compression of the self
 ### <img src="images/icons/construction.png" alt=" " width="40" height="40" > Design Implementation ---Video
 ***
 
-### <img src="images/icons/agile-project-management-vector.png" alt=" " width="40" height="40" >Project Management </h1>
+### <img src="images/icons/agile-project-management-vector.png" alt=" " width="40" height="40" >Project Management 
 
 Although we are an agile team, for the winter semester we modified our project management style, using a waterfall-agile hybrid approach for the alpha release, and an agile approach for the beta and final release.  
 The alpha release consisted of researching and designing the mechanism that would pump the BVM.  The research was done with specially designated research sprints, while the design was done through consultation with advisors.  
@@ -96,7 +96,7 @@ Work distribution breakdown: (Not perfectly to scale but provide a rough estimat
 
 
 
-### <img src="images/icons/economics.png" alt=" " width="40" height="40" >Financial Management </h1>
+### <img src="images/icons/economics.png" alt=" " width="40" height="40" >Financial Management 
 
 The final cost was $695.59 including the cost of the air compressor, which 108 ambulances are quite often equipped with.  Without the air compressor this could be reduced to $520.46, which in our estimation is a more fair estimation of the cost of our product. 
 Our original design included multiple components that we did not include in the final design because we were afraid of going over the budget.  The original price for all the components of the pumping mechanism was $1047.95, well over the $800 budget.  
