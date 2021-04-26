@@ -57,7 +57,7 @@ Size: Decoupling various subfunctions of our mechanism helped us  make the size 
 Compression: The current implementation affords complete compression of the self-inflating bag by meeting the minimum thrust requirements. Complete compression ensures sufficient oxygen/air reaches the patient’s lungs.
 </li>
 </ul>
-</ul>
+
 
 
 ***
@@ -141,13 +141,13 @@ Proximity Sensor (SMT-8M-A-PS-24V-E-0.3-M8D): This sensor is mounted to the fron
 </li>
 <li>
 Proximity Sensor (SMT-8M-A-PS-24V-E-0.3-M8D): This sensor is mounted to the back of the pneumatic cylinder via a sensor holder. It has a small magnet that keeps a track of the piston motion. It is powered by a 24V signal and supplies a feedback signal of 24V back to the Raspberry Pi which is read via a GPIO (a voltage divider circuit is implemented to ensure we are only supplying 3.3V and under to the Pi). This sensor sends a digital true (1) if the piston is extended, this is also signaled by an LED turning on.  
-</li>
-<li>  
+</li>  
 <ul> 
 <li>
     Couplings used to connect different components:
- <ul>   
-     </li>
+ </li>
+<ul>   
+    
 NEBU-M8G3-K-2.5-LE3: This is the connector attached to a Solenoid Valve
 <ul>
 <li> This wire is connected on one end to the solenoid valve, the other end has 3 wires: black, blue and brown but only the blue and black ones are used. </li> 
