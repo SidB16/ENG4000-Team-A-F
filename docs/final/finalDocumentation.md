@@ -114,17 +114,11 @@ UC-⅛ : is a silencer on a valve 5 of the solenoid
 <li>
 GRLA-1/8-QS-6-RS-D: connects the valve 4 of the solenoid valve to the back end of the pneumatic cylinder
 </li>
-<li>
-GRLA-1/8-QS-6-RS-D: connects the valve 2 of the solenoid valve to the front end of the pneumatic cylinder
-</li>
-<li>
-SMBR-8-25:mounts on the top of  the pneumatic cylinder to hold the sensor 
-</li>
-<li>
-SMBR-8-25:mounts on the top of  the pneumatic cylinder to hold the sensor
-    </li>
-     </ul>
- 
+<li> GRLA-1/8-QS-6-RS-D: connects the valve 2 of the solenoid valve to the front end of the pneumatic cylinder </li>
+<li> SMBR-8-25:mounts on the top of  the pneumatic cylinder to hold the sensor </li>
+<li> SMBR-8-25:mounts on the top of  the pneumatic cylinder to hold the sensor</li>
+  </ul>
+    </ul>
  <li>
 We plan on placing the air prep unit and the solenoid valve together at a location that is yet to be determined based on where other medical equipment and the air compressor are situated in the ambulance. These components will be placed inside of a casing (open from the top and bottom), that is easily accessible incase maintenance is required. 
 </li>
