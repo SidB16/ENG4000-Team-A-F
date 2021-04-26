@@ -159,8 +159,11 @@ The black wire is connected to the power supply ground.
 <li>
 The brown wire is not connected to anything.
     </li>
-        <ul>
+        </ul>
 <li>
+    </li>
+<ul>
+    </li>  
 NEBU-M8G3-K-2.5-LE3 (2 pieces): This is the connector attached to a Proximity Sensor.This wire is connected on one end to the sensor, the other end, has 3 exposed wires: black, blue and brown.
     </li>
 <li>
