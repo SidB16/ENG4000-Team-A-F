@@ -154,8 +154,11 @@ If I could advise myself in September would be to worry less about the final pro
 On a more practical level, I would advise myself to get in contact with mechanical engineering experts as early as possible, as they proved to be crucial resources.  Also, I would advise myself to get to ordering parts as early as possible, we did not anticipate the impact shipment delays had on our ability to complete the project in a timely manner.
 </li>
 </ul>
+
 #### Shivani Joshi
+
 #### Priyam Shah
+
 #### Areeba Abidi
 
 
