@@ -53,20 +53,20 @@ Details of the alpha release roadmap can be found here.
 
 Here is a snapshot of the Alpha release Sprint Planning board:
 
-<img src="Final_image/man1.png" alt=" " >
+<img src="images/management/man1.png" alt=" " >
 
 The beta release had to be modified due to delays in the shipments of parts. The original beta release plan entailed completing the assembly of the device. This was changed to completing the design of the parts that had arrived by the beta release deadline: the Rasberry Pi, and the RPi Relay board.  Additionally it included designing and 3D printing the mount for the Cylinder which compressed the bag.  We formulated sprints to complete these tasks, and allocated the tasks according to team members availability and skill sets.  
 Details of the beta release roadmap can be found here. 
 
 Here is a snapshot of the Beta release Sprint Planning board:
-<img src="Final_image/man2.png" alt=" " >
+<img src="images/management/man2.png" alt=" " >
 
 
 
 The final release consisted of assembling and testing out the final design.  Once we received the parts, we ran a sprint to allocate assignments for each task.  
 Here is a snapshot of the final release Sprint Planning board:
 
-<img src="Final_image/man3.png" alt=" " >
+<img src="images/management/man3.png" alt=" " >
 
 
 Work Distribution
