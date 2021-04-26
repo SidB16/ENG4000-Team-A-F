@@ -1,10 +1,10 @@
 ### Page Index
 -[Executive Summary](#executive-summary) </br>
--[Design Architecture](#design-architecture)
--[Design Implementation](#design-implentation)
--[Project Management](#project-Management)
--[Financial and Management Volume](#financial-and-management-volume)
--[Lessons Learned/Reflection](#lesson-learned)
+-[Design Architecture](#design-architecture) </br>
+-[Design Implementation](#design-implentation)</br>
+-[Project Management](#project-Management)</br>
+-[Financial and Management Volume](#financial-and-management-volume)</br>
+-[Lessons Learned/Reflection](#lesson-learned)</br>
 -[References](#references)
 
 ### Executive Summary
