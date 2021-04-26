@@ -57,8 +57,12 @@ Size: Decoupling various subfunctions of our mechanism helped us  make the size 
 Compression: The current implementation affords complete compression of the self-inflating bag by meeting the minimum thrust requirements. Complete compression ensures sufficient oxygen/air reaches the patient’s lungs.
 </li>
 </ul>
+</ul>
+
 
 ***
+
+
 <img src="images/icons/prototype.png" alt=" " width="100" height="100"> 
 
 ### Design Architecture
