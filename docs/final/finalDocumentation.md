@@ -153,7 +153,7 @@ The beta release had to be modified due to delays in the shipments of parts. The
 Details of the beta release roadmap can be found here. 
 
 Here is a snapshot of the Beta release Sprint Planning board:
-<img src="images/management/man2.png" alt=" " >
+<img src="images/management/man2.PNG" alt=" " >
 
 
 
@@ -169,7 +169,7 @@ Creating an even work distribution was one of the challenges of the capstone pro
 Since the assembly could only be done in one household and congregating to assemble the parts was not possible due to COVID-19 restrictions, the responsibility of assembling the parts would often fall on one group member.  This happened for both the MVP and the final product assembly, and made it very challenging for group members to do work concurrently.  To support the group members doing assembly, other group members would take on other responsibilities, such as buying and delivering various components for the product.  We would also occasionally ferry the parts back and forth between households, according to the availability of each team member. For example, the electrical components for the final design were assembled at one house, while the final assembly took place at another.   In an ideal world it would be possible for each group member to have their own prototype to work on, or it would be possible to work together on one prototype in one location.  Unfortunately fate was not on our side in this regard.  
 Work distribution breakdown: (Not perfectly to scale but provide a rough estimate for the work distribution)
 
-<img src="images/management/man4.png" alt=" " >
+<img src="images/management/man4.PNG" alt=" " >
 
 ***
 
