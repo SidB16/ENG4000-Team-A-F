@@ -19,20 +19,20 @@ Details of the alpha release roadmap can be found here.
 
 Here is a snapshot of the Alpha release Sprint Planning board:
 
-<img src="docs/Final_image/man1.png" alt=" " >
+<img src="Final_image/man1.png" alt=" " >
 
 The beta release had to be modified due to delays in the shipments of parts. The original beta release plan entailed completing the assembly of the device. This was changed to completing the design of the parts that had arrived by the beta release deadline: the Rasberry Pi, and the RPi Relay board.  Additionally it included designing and 3D printing the mount for the Cylinder which compressed the bag.  We formulated sprints to complete these tasks, and allocated the tasks according to team members availability and skill sets.  
 Details of the beta release roadmap can be found here. 
 
 Here is a snapshot of the Beta release Sprint Planning board:
-
+<img src="Final_image/man2.png" alt=" " >
 
 
 
 The final release consisted of assembling and testing out the final design.  Once we received the parts, we ran a sprint to allocate assignments for each task.  
 Here is a snapshot of the final release Sprint Planning board:
 
-
+<img src="Final_image/man3.png" alt=" " >
 
 
 Work Distribution
@@ -41,7 +41,7 @@ Creating an even work distribution was one of the challenges of the capstone pro
 Since the assembly could only be done in one household and congregating to assemble the parts was not possible due to COVID-19 restrictions, the responsibility of assembling the parts would often fall on one group member.  This happened for both the MVP and the final product assembly, and made it very challenging for group members to do work concurrently.  To support the group members doing assembly, other group members would take on other responsibilities, such as buying and delivering various components for the product.  We would also occasionally ferry the parts back and forth between households, according to the availability of each team member. For example, the electrical components for the final design were assembled at one house, while the final assembly took place at another.   In an ideal world it would be possible for each group member to have their own prototype to work on, or it would be possible to work together on one prototype in one location.  Unfortunately fate was not on our side in this regard.  
 Work distribution breakdown: (Not perfectly to scale but provide a rough estimate for the work distribution)
 
-
+<img src="Final_image/man4.png" alt=" " >
 
 ***
 
