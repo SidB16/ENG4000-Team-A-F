@@ -11,6 +11,7 @@
 
 
 <img src="images/icons/report.png" alt=" " width="100" height="100" >  
+
 ### Executive Summary
 
 The Covid-19 Pandemic has highlighted challenges in getting immediate access to ventilators or resuscitators especially for patients needing to be transported between medical facilities while experiencing hypoxia. 
