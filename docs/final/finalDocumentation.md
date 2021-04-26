@@ -110,3 +110,4 @@ Work distribution breakdown: (Not perfectly to scale but provide a rough estimat
 ### Lesson Learned/Reflection
 ### References
 <div>Icons made by <a href="https://www.flaticon.com/authors/wanicon" title="wanicon">wanicon</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
