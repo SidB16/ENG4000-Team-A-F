@@ -1,11 +1,19 @@
 ### Page Index
--[Executive Summary](#executive-summary) 
--[Design Architecture](#design-architecture) 
--[Design Implementation](#design-implentation)<br>
--[Project Management](#project-management)<br>
--[Financial Management](#financial-management)<br>
--[Lessons Learned/Reflection](#lesson-learned)<br>
--[References](#references)
+ <li>
+  [Executive Summary](#executive-summary) 
+ </li>
+ <li>
+ [Design Architecture](#design-architecture) 
+</li>
+<li>
+ [Design Implementation](#design-implentation)
+ </li>
+ <li>
+[Project Management](#project-management)<br>
+<li> [Financial Management](#financial-management)</li>
+<li>[Lessons Learned/Reflection](#lesson-learned)</li>
+</li>
+<li>[References](#references)</li>
 
  
 ### <img src="images/icons/report.png" alt=" " width="40" height="40" > Executive Summary
