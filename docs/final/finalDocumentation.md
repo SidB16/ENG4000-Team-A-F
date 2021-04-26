@@ -149,6 +149,7 @@ Couplings used to connect different components:
     <li>
 NEBU-M8G3-K-2.5-LE3: This is the connector attached to a Solenoid Valve.This wire is connected on one end to the solenoid valve, the other end has 3 wires: black, blue and brown but only the blue and black ones are used.
         </li>
+    <ul>
 <li>
 The blue wire is connected to GPIO pin 26 via the middle port and executes the switching mechanism between 24-0V. The first port is connected to 24V from the power supply to power the solenoid.
     </li>
@@ -158,6 +159,7 @@ The black wire is connected to the power supply ground.
 <li>
 The brown wire is not connected to anything.
     </li>
+        <ul>
 <li>
 NEBU-M8G3-K-2.5-LE3 (2 pieces): This is the connector attached to a Proximity Sensor.This wire is connected on one end to the sensor, the other end, has 3 exposed wires: black, blue and brown.
     </li>
