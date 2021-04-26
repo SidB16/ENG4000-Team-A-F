@@ -68,7 +68,8 @@ Compression: The current implementation affords complete compression of the self
 
 ### Design Architecture
 
-  #### Pneumatic System-as-Built: 
+#### Pneumatic System-as-Built: 
+
 <ul>
 <li>
 Air Compressor: Will be able to compress air upto 100psi and contain an inbuilt air reservoir such that the compressor does not run all the time, we recognize that they can be loud if kept running for long periods of time which could discomfort patients. The volume of the reservoir we can include for our POC will depend on our budget constraints for the time being.Currently for our design we are setting the minimum psi to be 80.
