@@ -2,11 +2,12 @@
 -[Executive Summary](#executive-summary) <br>
 -[Design Architecture](#design-architecture) <br>
 -[Design Implementation](#design-implentation)<br>
--[Project Management](#project-Management)<br>
--[Financial and Management Volume](#financial-and-management-volume)<br>
+-[Project Management](#project-management)<br>
+-[Financial Management](#financial-management)<br>
 -[Lessons Learned/Reflection](#lesson-learned)<br>
 -[References](#references)
 
+<img src="images/icons/report.png" alt=" " width="40" height="40" >  
 ### Executive Summary
 
 The Covid-19 Pandemic has highlighted challenges in getting immediate access to ventilators or resuscitators especially for patients needing to be transported between medical facilities while experiencing hypoxia. 
@@ -43,9 +44,14 @@ Compression: The current implementation affords complete compression of the self
 </ul>
 
 
-<img src="images/icons/prototype.png" alt=" " width="40" height="40" >  ### Design Architecture
+<img src="images/icons/economics.png" alt=" " width="40" height="40" >  
+### Design Architecture
+
+
+<img src="images/icons/construction.png" alt=" " width="40" height="40" >  
 
 ### Design Implementation ---Video
+
 
 ### Project Management
 
@@ -82,8 +88,8 @@ Work distribution breakdown: (Not perfectly to scale but provide a rough estimat
 ***
 
 
-
-
+<img src="images/icons/prototype.png" alt=" " width="40" height="40" >  
+### Financial Management
 
 
 
