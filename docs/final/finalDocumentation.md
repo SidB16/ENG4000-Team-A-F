@@ -59,6 +59,7 @@ Compression: The current implementation affords complete compression of the self
  
 ***
 <img src="images/icons/construction.png" alt=" " width="100" height="100" >
+
 ### Design Implementation ---Video
 ***
 <img src="images/icons/agile-project-management-vector.png" alt=" " width="100" height="100" 
