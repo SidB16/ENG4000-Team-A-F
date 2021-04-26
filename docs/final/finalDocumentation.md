@@ -3,9 +3,12 @@
 - [Design Architecture](#design-architecture)
 - [Design Implementation](#design-implementation)
 - [Project Management](#project-management)
-    + [Financial Management ](#financial-management)
-    + [System State(s) Diagram](#system-states-diagram)
-    + [Solution Sequence Diagram](#solution-sequence-diagram)
+- [Reflection](#reflection)
+    + [Jonathan Blumenfeld](#mem1)
+    + [Shivani Joshi](#mem2)
+    + [Priyam Shah](#mem3)
+    + [Areeba Abidi](#mem4)
+- [References](#reference)
     
     <br>
     <br>
