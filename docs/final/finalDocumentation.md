@@ -102,7 +102,8 @@ Work distribution breakdown: (Not perfectly to scale but provide a rough estimat
 ***
 
 
-<img src="images/icons/economics.png" alt=" " width="100" height="100" >
+<img src="images/icons/economics.png" alt=" " width="100" height="100">
+
 ### Financial Management 
 
 The final cost was $695.59 including the cost of the air compressor, which 108 ambulances are quite often equipped with.  Without the air compressor this could be reduced to $520.46, which in our estimation is a more fair estimation of the cost of our product. 
