@@ -148,9 +148,9 @@ Couplings used to connect different components:
 <ul>
     <li>
 NEBU-M8G3-K-2.5-LE3: This is the connector attached to a Solenoid Valve.This wire is connected on one end to the solenoid valve, the other end has 3 wires: black, blue and brown but only the blue and black ones are used.
-        </li>
+        <li>
     <ul>
-<li>
+</li>
 The blue wire is connected to GPIO pin 26 via the middle port and executes the switching mechanism between 24-0V. The first port is connected to 24V from the power supply to power the solenoid.
     </li>
 <li>
