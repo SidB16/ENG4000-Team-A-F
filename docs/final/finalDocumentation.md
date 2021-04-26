@@ -148,7 +148,8 @@ Proximity Sensor (SMT-8M-A-PS-24V-E-0.3-M8D): This sensor is mounted to the back
  </li>
 <ul>   
     
-NEBU-M8G3-K-2.5-LE3: This is the connector attached to a Solenoid Valve
+<li> NEBU-M8G3-K-2.5-LE3: This is the connector attached to a Solenoid Valve </li>
+
 <ul>
 <li> This wire is connected on one end to the solenoid valve, the other end has 3 wires: black, blue and brown but only the blue and black ones are used. </li> 
 <li>    
