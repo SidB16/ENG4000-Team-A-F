@@ -53,6 +53,7 @@ Compression: The current implementation affords complete compression of the self
 ### Design Implementation ---Video
 
 
+<img src="images/icons/agile-project-management-vector.png" alt=" " width="40" height="40" >  
 ### Project Management
 
 Although we are an agile team, for the winter semester we modified our project management style, using a waterfall-agile hybrid approach for the alpha release, and an agile approach for the beta and final release.  
