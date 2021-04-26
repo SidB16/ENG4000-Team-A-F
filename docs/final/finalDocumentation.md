@@ -138,6 +138,7 @@ https://docs.google.com/document/d/14mnJ_hAVgQfS5SkhmXBm52U9W-7HVQDcIqaKVMDcAnI/
 
 
 <img src="images/icons/video-tutorial.png" alt=" " width="100" height="100" >
+
 ### Lesson Learned/Reflection
 
 #### Jonathan Blumenfled
