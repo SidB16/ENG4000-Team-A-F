@@ -118,7 +118,6 @@ GRLA-1/8-QS-6-RS-D: connects the valve 4 of the solenoid valve to the back end o
 <li> SMBR-8-25:mounts on the top of  the pneumatic cylinder to hold the sensor </li>
 <li> SMBR-8-25:mounts on the top of  the pneumatic cylinder to hold the sensor</li>
   </ul>
-    </ul>
  <li>
 We plan on placing the air prep unit and the solenoid valve together at a location that is yet to be determined based on where other medical equipment and the air compressor are situated in the ambulance. These components will be placed inside of a casing (open from the top and bottom), that is easily accessible incase maintenance is required. 
 </li>
@@ -172,6 +171,7 @@ The brown wire is connected to 24V on the power supply, used to power the sensor
 Voltage Divider Circuit: This connects sensor output to the Pi.The wire carrying an output signal of 24V is attached to one end of a 67 ㏀ resistors connected in series with a 10㏀ resistor. The midpoint of this series connection drops the input voltage to 3.1 V, making it tolerant by the GPIOs on a Pi. The other end of this divider is connected to the Power Supply ground.
   </li>
         </ul>
+</ul>
 <li>
    
 Raspberry pi 4 Model b: This microcontroller is powered on with a power adapter (5V supply). The control code is written in a python script that runs on boot up. The code implements a switching mechanism for the solenoid. We switch between 24-0V at the rate of 14 breaths/min, the time intervals are mentioned in the code here (EMBED THIS). 
