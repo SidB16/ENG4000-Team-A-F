@@ -3,7 +3,7 @@
 - [Design Architecture](#design-architecture)
     + [Pneumatic System as Built](#pneumatic-system-as-built)
 - [Design Implementation](#design-implementation)
-- [Performance Analysis] (#performance-analysis)
+- [Performance Analysis](#performance-analysis)
 - [Project Management](#project-management)
 - [Reflection](#reflection)
     + [Jonathan Blumenfeld](#jonathan-blumenfeld)
@@ -197,9 +197,14 @@ For our product to work as desired, the pneumatic components that draw power sho
 The system is left running for about an hour to check for overheating and clogging, there were no anomalies in operation recorded. We did however note that a compressor that can pump upto 80psi would be sufficient as opposed to the max. 120psi one which has a large reservoir tank. The air compressor we connected to for testing had a holding capacity of 11.1L which proved to be quite small, leading to the compressor being turned on rather frequently(every 30 seconds). We noticed that with a pressure setting of 50psi, we were able to squeeze the bag a desirable amount but the pump rate reduced by a factor of -2 pumps/min. In order to achieve the 14 pumps/min rate we would have to tweek the time.sleep() parameters a bit but consuming air at a reduced pressure would increase the flow rate significantly, triggering the compressor to turn on every 10 seconds. However, in case of a loose connection or leakage low pressure air can do less physical harm whereas high pressure air reduces noise pollution but optimizes the air flow for the same pump rates. We wish to test this aspect further to strike a good balance between safety and efficiency.
 
 
-We confirmed with our Stakeholders that the compression rate achieved and the amount of torque provided by the pneumatic cylinder while squeezing the BVM ensured enough oxygen supply reached the patient’s lungs. We demonstrated the amount of air being pumped by attaching a balloon on the end of the expiratory valve of the BVM. The balloon inflated to a diameter of 9cm when I squeezed it by hand thoroughly and about 7cm when pumped using the automation. This experiment suggests that manual pumping can be irregular and unregulated which could lead to internal damage but a regulated system with controlled pumping is desirable as it is safer to use. 
-[Automated Pumping](https://www.youtube.com/watch?v=1stogvTAXRE&feature=youtu.be&ab_channel=AreebaAbidi)
-[Manual Pumping](https://www.youtube.com/watch?v=qQOZqJhlQgo&ab_channel=AreebaAbidi)
+We confirmed with our Stakeholders that the compression rate achieved and the amount of torque provided by the pneumatic cylinder while squeezing the BVM ensured enough oxygen supply reached the patient’s lungs. We demonstrated the amount of air being pumped by attaching a balloon on the end of the expiratory valve of the BVM. The balloon inflated to a diameter of 9cm when I squeezed it by hand thoroughly and about 7cm when pumped using the automation. This experiment suggests that manual pumping can be irregular and 
+unregulated which could lead to internal damage but a regulated system with controlled pumping is desirable as it is safer to use. 
+
+
+[Automated Pumping](https://www.youtube.com/watch?v=1stogvTAXRE&feature=youtu.be&ab_channel=AreebaAbidi)<br>
+
+
+[Manual Pumping](https://www.youtube.com/watch?v=qQOZqJhlQgo&ab_channel=AreebaAbidi)<br>
 
 
 We tried designing a barometer out of spare plastic tubing to compare the difference in the force distribution between the piston head being mounted by a cushion versus the metal head being exposed. We were unable to complete this test as our homemade barometer did not end up working, the tubing available to us was extremely short so everytime the BVM would be squeezed even by hand, the water would spout out (even though we tried adding very tiny amounts).
