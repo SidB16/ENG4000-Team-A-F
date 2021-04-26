@@ -44,8 +44,7 @@ Compression: The current implementation affords complete compression of the self
 </ul>
 
 ***
-<img src="images/icons/economics.png" alt=" " width="40" height="40" >  
-### Design Architecture
+<img src="images/icons/economics.png" alt=" " width="40" height="40" >  <h1> Design Architecture</h1>
 
 
 <img src="images/icons/construction.png" alt=" " width="40" height="40" >  
