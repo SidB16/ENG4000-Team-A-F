@@ -131,6 +131,65 @@ We plan on placing the air prep unit and the solenoid valve together at a locati
 <li>
 In trying to make our design portable we realized that making a compact carriabble ventilator would not be technically feasible because of special orientation requirements of the air prep unit (only ± 5°deflection from 90° allowed) so we opted to make a semi-portable design. Our design will be restricted to the ambulance but will allow the automated BVM pumping mechanism to be brought to a patient wherever they are situated, regardless of the height or placement of their bed. Our design does not require the medical professionals to provide extensions to the endotracheal tube or mask end, to connect with the BVM as we make sure our system enables all functionalities and conveniences a manual BVM provides. </li>  </ul>
 
+#### Electrical System-as-Built: 
+<ul>
+<li>
+Solenoid Valve/5-2 Valve (VUVG-L14-M52-AT-G18-1R8L): The solenoid’s power will switch between 24V and 0V based on the rate at which we need the cylinder to pump. For a rate of 14 breaths/min, 24V is supplied every 3s for 1s and 0V is supplied every 1s for 3s. The power signal will be regulated via a Raspberry Pi connected to a power supply via a relay.
+</li>
+<li>    
+Proximity Sensor (SMT-8M-A-PS-24V-E-0.3-M8D): This sensor is mounted to the front of the pneumatic cylinder via a sensor holder. It has a small magnet that keeps a track of the piston motion. It is powered by a 24V signal and supplies a feedback signal of 24V back to the Raspberry Pi which is read via a GPIO (a voltage divider circuit is implemented to ensure we are only supplying 3.3V and under to the Pi). This sensor sends a digital true (1) if the piston is retracted, this is also signaled by an LED turning on.  
+</li>
+<li>    
+Proximity Sensor (SMT-8M-A-PS-24V-E-0.3-M8D): This sensor is mounted to the back of the pneumatic cylinder via a sensor holder. It has a small magnet that keeps a track of the piston motion. It is powered by a 24V signal and supplies a feedback signal of 24V back to the Raspberry Pi which is read via a GPIO (a voltage divider circuit is implemented to ensure we are only supplying 3.1V to the Pi). This sensor sends a digital true (1) if the piston is extended, this is also signaled by an LED turning on. 
+</li>
+<li>
+Couplings used to connect different components:
+    </li>
+<ul>
+    <li>
+NEBU-M8G3-K-2.5-LE3: This is the connector attached to a Solenoid Valve.This wire is connected on one end to the solenoid valve, the other end has 3 wires: black, blue and brown but only the blue and black ones are used.
+        </li>
+<li>
+The blue wire is connected to GPIO pin 26 via the middle port and executes the switching mechanism between 24-0V. The first port is connected to 24V from the power supply to power the solenoid.
+    </li>
+<li>
+The black wire is connected to the power supply ground.
+    </li>
+<li>
+The brown wire is not connected to anything.
+    </li>
+<li>
+NEBU-M8G3-K-2.5-LE3 (2 pieces): This is the connector attached to a Proximity Sensor.This wire is connected on one end to the sensor, the other end, has 3 exposed wires: black, blue and brown.
+    </li>
+<li>
+The black wire is connected to the voltage divider terminal, a GPIO pin reads the output signal carried by the black wire (3.3V to signify 1 and 0V to signify 0).
+    </li>
+<li>
+The blue wire is connected to the power supply ground.
+    </li>
+<li>
+The brown wire is connected to 24V on the power supply, used to power the sensor.
+    </li>
+<li>
+Voltage Divider Circuit: This connects sensor output to the Pi.The wire carrying an output signal of 24V is attached to one end of a 67 ㏀ resistors connected in series with a 10㏀ resistor. The midpoint of this series connection drops the input voltage to 3.1 V, making it tolerant by the GPIOs on a Pi. The other end of this divider is connected to the Power Supply ground.
+    </li>
+<li>
+Raspberry pi 4 Model b: This microcontroller is powered on with a power adapter (5V supply). The control code is written in a python script that runs on boot up. The code implements a switching mechanism for the solenoid. We switch between 24-0V at the rate of 14 breaths/min, the time intervals are mentioned in the code here (EMBED THIS). 
+    </li>
+<li>
+Relay: The relay is mounted on the Raspberry Pi microcontroller. Relay can convert  higher current to a lower value or vice versa depending on the scenario. The relay facilitates two types of contacts: Open contact and close contact.Open contact is when the relay circuit is open and it does not receive any power and it switches to a close contact(when the relay receives power) due to the phenomenon of electromagnetism. The relay is connected to the power supply on port 2 of channel 3 and a GPIO 26 on port 1. We used a 3 channel relay where each channel has an input, output and ground terminals. 
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
 
 ***
 <img src="images/icons/construction.png" alt=" " width="100" height="100">
