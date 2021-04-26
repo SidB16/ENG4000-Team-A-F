@@ -1,7 +1,7 @@
 ### Page Index
 - [Executive Summary](#executive-summary)
 - [Design Architecture](#design-architecture)
-    + [Pneumatic System-as-Built](#pneumatic-system-as-built)
+    + [Pneumatic System as Built](#pneumatic-system-as-built)
 - [Design Implementation](#design-implementation)
 - [Project Management](#project-management)
 - [Reflection](#reflection)
