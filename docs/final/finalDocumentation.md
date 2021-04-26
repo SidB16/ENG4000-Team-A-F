@@ -2,6 +2,7 @@
 - [Executive Summary](#executive-summary)
 - [Design Architecture](#design-architecture)
     + [Pneumatic System as Built](#pneumatic-system-as-built)
+    + [Electronic and Software system as Built](#electronic-and-software-system-as-built)
 - [Design Implementation](#design-implementation)
 - [Performance Analysis](#performance-analysis)
 - [Project Management](#project-management)
