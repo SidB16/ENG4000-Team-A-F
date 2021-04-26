@@ -179,7 +179,8 @@ Voltage Divider Circuit: This connects sensor output to the Pi.The wire carrying
    </li>
         </ul>
 <li>
-    
+</li>
+<li>    
 Raspberry pi 4 Model b: This microcontroller is powered on with a power adapter (5V supply). The control code is written in a python script that runs on boot up. The code implements a switching mechanism for the solenoid. We switch between 24-0V at the rate of 14 breaths/min, the time intervals are mentioned in the code here (EMBED THIS). 
     </li>
 <li>
