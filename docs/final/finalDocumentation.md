@@ -1,5 +1,5 @@
 ### Page Index
--[Executive Summary](#executive-summary)
+-[Executive Summary](#executive-summary) </br>
 -[Design Architecture](#design-architecture)
 -[Design Implementation](#design-implentation)
 -[Project Management](#project-Management)
@@ -100,3 +100,4 @@ Work distribution breakdown: (Not perfectly to scale but provide a rough estimat
 
 ### Lesson Learned/Reflection
 ### References
+<div>Icons made by <a href="https://www.flaticon.com/authors/wanicon" title="wanicon">wanicon</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
