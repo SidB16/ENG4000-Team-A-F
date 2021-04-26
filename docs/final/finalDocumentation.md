@@ -1,14 +1,14 @@
 ### Page Index
 - [Executive Summary](#executive-summary)
 - [Design Architecture](design-architecture)
-  * [Product Vision](#product-vision)
+- [Product Implementation](#product-implementation)
   * [Solution Architecture](#solution-architecture)
     + [Architecture Diagram](#architecture-diagram)
     + [System State(s) Diagram](#system-states-diagram)
     + [Solution Sequence Diagram](#solution-sequence-diagram)
     
     
- <img src="images/icons/report.png" alt=" " width="100" height="100" >     
+   
 ### Executive Summary
 
 The Covid-19 Pandemic has highlighted challenges in getting immediate access to ventilators or resuscitators especially for patients needing to be transported between medical facilities while experiencing hypoxia. 
