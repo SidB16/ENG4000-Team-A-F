@@ -1,22 +1,12 @@
 ### Page Index
-<ul>
- <li>
-  [Executive Summary](#executive-summary) 
- </li>
- <li>
-  [Design Architecture](#design-architecture) 
-</li>
-<li>
-  [Design Implementation](#design-implentation)
- </li>
-<li>
-<li>[Project Management](#project-management)</li>
-<li> [Financial Management](#financial-management)</li>
-<li>[Lessons Learned/Reflection](#lesson-learned)</li>
-</li>
-<li>[References](#references)</li>
-</ul>
- 
+- [Executive Summary](#executive-summary)
+  * [Design Architecture](design-architecture)
+  * [Product Vision](#product-vision)
+  * [Solution Architecture](#solution-architecture)
+    + [Architecture Diagram](#architecture-diagram)
+    + [System State(s) Diagram](#system-states-diagram)
+    + [Solution Sequence Diagram](#solution-sequence-diagram)
+    + 
 ### <img src="images/icons/report.png" alt=" " width="40" height="40" > Executive Summary
 
 The Covid-19 Pandemic has highlighted challenges in getting immediate access to ventilators or resuscitators especially for patients needing to be transported between medical facilities while experiencing hypoxia. 
