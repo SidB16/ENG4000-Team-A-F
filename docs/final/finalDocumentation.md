@@ -53,13 +53,15 @@ Compression: The current implementation affords complete compression of the self
 </ul>
 
 ***
-### <img src="images/icons/prototype.png" alt=" " width="40" height="40" > Design Architecture
+<img src="images/icons/prototype.png" alt=" " width="100" height="100" > 
+### Design Architecture
  
 ***
-### <img src="images/icons/construction.png" alt=" " width="40" height="40" > Design Implementation ---Video
+<img src="images/icons/construction.png" alt=" " width="100" height="100" >
+### Design Implementation ---Video
 ***
-
-### <img src="images/icons/agile-project-management-vector.png" alt=" " width="40" height="40" >Project Management 
+<img src="images/icons/agile-project-management-vector.png" alt=" " width="100" height="100" 
+### Project Management 
 
 Although we are an agile team, for the winter semester we modified our project management style, using a waterfall-agile hybrid approach for the alpha release, and an agile approach for the beta and final release.  
 The alpha release consisted of researching and designing the mechanism that would pump the BVM.  The research was done with specially designated research sprints, while the design was done through consultation with advisors.  
@@ -94,8 +96,8 @@ Work distribution breakdown: (Not perfectly to scale but provide a rough estimat
 ***
 
 
-
-### <img src="images/icons/economics.png" alt=" " width="40" height="40" >Financial Management 
+<img src="images/icons/economics.png" alt=" " width="100" height="100" >
+### Financial Management 
 
 The final cost was $695.59 including the cost of the air compressor, which 108 ambulances are quite often equipped with.  Without the air compressor this could be reduced to $520.46, which in our estimation is a more fair estimation of the cost of our product. 
 Our original design included multiple components that we did not include in the final design because we were afraid of going over the budget.  The original price for all the components of the pumping mechanism was $1047.95, well over the $800 budget.  
@@ -132,7 +134,7 @@ https://docs.google.com/document/d/14mnJ_hAVgQfS5SkhmXBm52U9W-7HVQDcIqaKVMDcAnI/
 
 
 
-
+<img src="images/icons/creative.png" alt=" " width="40" height="40" >
 ### Lesson Learned/Reflection
 
 #### Jonathan Blumenfled
@@ -143,6 +145,9 @@ Due to Covid, it was difficult to collaborate and work with each other remotely,
 If I could advise myself in September would be to worry less about the final product and focus more on the learning journey, as what matters most is what you learn along the way, more so than how souped up your final product is. 
 On a more practical level, I would advise myself to get in contact with mechanical engineering experts as early as possible, as they proved to be crucial resources.  Also, I would advise myself to get to ordering parts as early as possible, we did not anticipate the impact shipment delays had on our ability to complete the project in a timely manner.
 
+
+
+<img src="images/icons/references.png" alt=" " width="100" height="100" >
 ### References
 <div>Icons made by <a href="https://www.flaticon.com/authors/wanicon" title="wanicon">wanicon</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
