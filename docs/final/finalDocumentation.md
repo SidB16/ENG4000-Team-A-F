@@ -79,25 +79,45 @@ Pneumatic Cylinder (DSNU-25-100-PPS-A): Connects to ports 2 and 4 of the solenoi
     </li>
 <li>
 Couplings used to connect different components:
+    </li>
 <ul>
-    </li>
-Male coupler- AD-1/4NPT-G1/4-I Adapter - QS-G1/4-6: connects the air compressor to the air preparation unit via PUN-H-6X1-BL tubing 
-    </li>
     <li>
+Male coupler- AD-1/4NPT-G1/4-I Adapter - QS-G1/4-6: connects the air compressor to the air preparation unit via PUN-H-6X1-BL tubing 
+</li>
+<li>
 QS-G1/4-6: connects the air preparation unit to the air compressor via PUN-H-6X1-BL tubing 
-    </li>
-    </ul>
+</li>
+<li>   
 QS-G1/4-6: connects the air preparation unit to the solenoid via PUN-H-6X1-BL tubing    
+</li>
+<li>
 QS-G1/8-6: connects valve 1 of the solenoid to the air preparation unit via PUN-H-6X1-BL tubing
+</li>
+<li>
 QS-G1/8-6: connects valve 2 of the solenoid valve to the GRLA-1/8-QS-6-RS-D connected to the back end of the pneumatic cylinder via PUN-H-6X1-BL tubing
+</li>
+<li>
 QS-G1/8-6: connects the valve 4 of the solenoid valve to the GRLA-1/8-QS-6-RS-D connected to the front end of the  pneumatic cylinder via PUN-H-6X1-BL tubing
+</li>
+<li>
 UC-⅛ : is a silencer on valve 3 of the solenoid
+</li>
+<li>
 UC-⅛ : is a silencer on a valve 5 of the solenoid 
+</li>
+<li>
 GRLA-1/8-QS-6-RS-D: connects the valve 4 of the solenoid valve to the back end of the pneumatic cylinder
+</li>
+<li>
 GRLA-1/8-QS-6-RS-D: connects the valve 2 of the solenoid valve to the front end of the pneumatic cylinder
+</li>
+<li>
 SMBR-8-25:mounts on the top of  the pneumatic cylinder to hold the sensor 
+</li>
+<li>
 SMBR-8-25:mounts on the top of  the pneumatic cylinder to hold the sensor
     </li>
+     </ul>
 We plan on placing the air prep unit and the solenoid valve together at a location that is yet to be determined based on where other medical equipment and the air compressor are situated in the ambulance. These components will be placed inside of a casing (open from the top and bottom), that is easily accessible incase maintenance is required. 
 In trying to make our design portable we realized that making a compact carriabble ventilator would not be technically feasible because of special orientation requirements of the air prep unit (only ± 5°deflection from 90° allowed) so we opted to make a semi-portable design. Our design will be restricted to the ambulance but will allow the automated BVM pumping mechanism to be brought to a patient wherever they are situated, regardless of the height or placement of their bed. Our design does not require the medical professionals to provide extensions to the endotracheal tube or mask end, to connect with the BVM as we make sure our system enables all functionalities and conveniences a manual BVM provides.
 Electronic System-as-Built: 
