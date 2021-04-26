@@ -42,7 +42,7 @@ Compression: The current implementation affords complete compression of the self
 </li>
 </ul>
 
-### Design Architecture <img src="images/icon/prototype.png" alt=" " >
+### Design Architecture <img src="images/icons/prototype.png" alt=" " >
 
 ### Design Implementation ---Video
 
