@@ -1,20 +1,21 @@
 ### Page Index
+<ul>
  <li>
   [Executive Summary](#executive-summary) 
  </li>
  <li>
- [Design Architecture](#design-architecture) 
+  [Design Architecture](#design-architecture) 
 </li>
 <li>
- [Design Implementation](#design-implentation)
+  [Design Implementation](#design-implentation)
  </li>
- <li>
-[Project Management](#project-management)<br>
+<li>
+<li>[Project Management](#project-management)</li>
 <li> [Financial Management](#financial-management)</li>
 <li>[Lessons Learned/Reflection](#lesson-learned)</li>
 </li>
 <li>[References](#references)</li>
-
+</ul>
  
 ### <img src="images/icons/report.png" alt=" " width="40" height="40" > Executive Summary
 
@@ -137,3 +138,4 @@ https://docs.google.com/document/d/14mnJ_hAVgQfS5SkhmXBm52U9W-7HVQDcIqaKVMDcAnI/
 ### References
 <div>Icons made by <a href="https://www.flaticon.com/authors/wanicon" title="wanicon">wanicon</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+<div>Icons made by <a href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
