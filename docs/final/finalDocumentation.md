@@ -44,13 +44,17 @@ Compression: The current implementation affords complete compression of the self
 </ul>
 
 ***
- <h1> <img src="images/icons/economics.png" alt=" " width="40" height="40" >  Design Architecture</h1>
+### <img src="images/icons/report.png" alt=" " width="40" height="40" > Design Architecture
+ 
+***
+### <img src="images/icons/construction.png" alt=" " width="40" height="40" > Design Implementation ---Video
+***
 
+### <img src="images/icons/agile-project-management-vector.png" alt=" " width="40" height="40" >
 
-<h1> <img src="images/icons/construction.png" alt=" " width="40" height="40" >  Design Implementation ---Video </h1>
-
-<h1><img src="images/icons/agile-project-management-vector.png" alt=" " width="40" height="40" >  
 Project Management </h1>
+
+
 
 Although we are an agile team, for the winter semester we modified our project management style, using a waterfall-agile hybrid approach for the alpha release, and an agile approach for the beta and final release.  
 The alpha release consisted of researching and designing the mechanism that would pump the BVM.  The research was done with specially designated research sprints, while the design was done through consultation with advisors.  
