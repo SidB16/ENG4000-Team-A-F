@@ -148,9 +148,9 @@ Couplings used to connect different components:
 <ul>
     <li>
 NEBU-M8G3-K-2.5-LE3: This is the connector attached to a Solenoid Valve.This wire is connected on one end to the solenoid valve, the other end has 3 wires: black, blue and brown but only the blue and black ones are used.
-        <li>
+        </li>
     <ul>
-</li>
+<li>
 The blue wire is connected to GPIO pin 26 via the middle port and executes the switching mechanism between 24-0V. The first port is connected to 24V from the power supply to power the solenoid.
     </li>
 <li>
@@ -161,11 +161,10 @@ The brown wire is not connected to anything.
     </li>
         </ul>
 <li>
-    </li>
-<ul>
-    </li>  
+    
 NEBU-M8G3-K-2.5-LE3 (2 pieces): This is the connector attached to a Proximity Sensor.This wire is connected on one end to the sensor, the other end, has 3 exposed wires: black, blue and brown.
     </li>
+    <ul>
 <li>
 The black wire is connected to the voltage divider terminal, a GPIO pin reads the output signal carried by the black wire (3.3V to signify 1 and 0V to signify 0).
     </li>
@@ -177,7 +176,8 @@ The brown wire is connected to 24V on the power supply, used to power the sensor
     </li>
 <li>
 Voltage Divider Circuit: This connects sensor output to the Pi.The wire carrying an output signal of 24V is attached to one end of a 67 ㏀ resistors connected in series with a 10㏀ resistor. The midpoint of this series connection drops the input voltage to 3.1 V, making it tolerant by the GPIOs on a Pi. The other end of this divider is connected to the Power Supply ground.
-    </li>
+   </li>
+        </ul>
 <li>
 Raspberry pi 4 Model b: This microcontroller is powered on with a power adapter (5V supply). The control code is written in a python script that runs on boot up. The code implements a switching mechanism for the solenoid. We switch between 24-0V at the rate of 14 breaths/min, the time intervals are mentioned in the code here (EMBED THIS). 
     </li>
