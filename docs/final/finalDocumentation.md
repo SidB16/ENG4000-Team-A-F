@@ -2,7 +2,7 @@
 - [Executive Summary](#executive-summary)
 - [Design Architecture](design-architecture)
 - [Product Implementation](#product-implementation)
-  * [Solution Architecture](#solution-architecture)
+- [Solution Architecture](#solution-architecture)
     + [Architecture Diagram](#architecture-diagram)
     + [System State(s) Diagram](#system-states-diagram)
     + [Solution Sequence Diagram](#solution-sequence-diagram)
