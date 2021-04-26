@@ -44,8 +44,8 @@ Compression: The current implementation affords complete compression of the self
 
 ### Design Architecture
 ### Design Implementation ---Video
+
 ### Project Management
-Project management explanation
 
 Although we are an agile team, for the winter semester we modified our project management style, using a waterfall-agile hybrid approach for the alpha release, and an agile approach for the beta and final release.  
 The alpha release consisted of researching and designing the mechanism that would pump the BVM.  The research was done with specially designated research sprints, while the design was done through consultation with advisors.  
