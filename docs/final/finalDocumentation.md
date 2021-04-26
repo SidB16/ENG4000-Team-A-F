@@ -64,10 +64,20 @@ Compression: The current implementation affords complete compression of the self
 ### Design Architecture
 
     ##Pneumatic System-as-Built: 
+<ul>
+<li>
 Air Compressor: Will be able to compress air upto 100psi and contain an inbuilt air reservoir such that the compressor does not run all the time, we recognize that they can be loud if kept running for long periods of time which could discomfort patients. The volume of the reservoir we can include for our POC will depend on our budget constraints for the time being.Currently for our design we are setting the minimum psi to be 80.
+</li>
+<li>
 Air Preparation Unit (MSB4-1/4:C4:J2-WP): This component has a filter at the bottom that separates excess dust or moisture coming in from the compressed air and drains these substances out from the auto drain attached. The top piece is the pressure regulator, it has a dial that allows us to configure the air pressure we wish to supply to the solenoid valve. The air prep unit was added to ensure the air being used was getting filtered before being supplied to the solenoid valve as moisture can wash away grease applied to the solenoid and within the cylinder rendering them unable to move. Sand and dust particles can also clog the valve as it requires 40 micron filtration. The auto drain will require periodic inspection(we suspect once a month) by ambulance staff to ensure it is not getting clogged and functional. Lastly a manual switch that allows us the ability to cut our air flow from the compressor to the rest of the components. We were planning on adding a pressure sensor here that would allow us to ensure the air compressor was functioning properly and that there were no clogs in the filter/regulator section that were causing the air pressure to drop, however, due to a budget crunch we decided to move forward with our POC without it.
+</li>
+<li>
 Solenoid Valve/5-2 Valve (VUVG-L14-M52-AT-G18-1R8L): This is a single coil valve that has 5 ports on it. The main air goes into this valve via port 1 as can be seen in the image above and flows out via ports 2 and 4 depending on whether 0 or 24V signal is being received (respectively). 
+</li>
+<li>
 Pneumatic Cylinder (DSNU-25-100-PPS-A): Connects to ports 2 and 4 of the solenoid valve and based on the air flow the piston in the cylinder either releases or retracts. This cylinder has a stroke of 100mm and is about 250mm in length. 2 sensors were mounted on the cylinder that check whether the piston is being deployed and retracted fully within a certain time frame, if not we can flag that as an error scenario which can then be troubleshooted to determine where the fault lies within the system.
+    </li>
+<li>
 Couplings used to connect different components:
 Male coupler- AD-1/4NPT-G1/4-I Adapter - QS-G1/4-6: connects the air compressor to the air preparation unit via PUN-H-6X1-BL tubing 
 QS-G1/4-6: connects the air preparation unit to the air compressor via PUN-H-6X1-BL tubing 
@@ -81,6 +91,7 @@ GRLA-1/8-QS-6-RS-D: connects the valve 4 of the solenoid valve to the back end o
 GRLA-1/8-QS-6-RS-D: connects the valve 2 of the solenoid valve to the front end of the pneumatic cylinder
 SMBR-8-25:mounts on the top of  the pneumatic cylinder to hold the sensor 
 SMBR-8-25:mounts on the top of  the pneumatic cylinder to hold the sensor
+    </li>
 We plan on placing the air prep unit and the solenoid valve together at a location that is yet to be determined based on where other medical equipment and the air compressor are situated in the ambulance. These components will be placed inside of a casing (open from the top and bottom), that is easily accessible incase maintenance is required. 
 In trying to make our design portable we realized that making a compact carriabble ventilator would not be technically feasible because of special orientation requirements of the air prep unit (only ± 5°deflection from 90° allowed) so we opted to make a semi-portable design. Our design will be restricted to the ambulance but will allow the automated BVM pumping mechanism to be brought to a patient wherever they are situated, regardless of the height or placement of their bed. Our design does not require the medical professionals to provide extensions to the endotracheal tube or mask end, to connect with the BVM as we make sure our system enables all functionalities and conveniences a manual BVM provides.
 Electronic System-as-Built: 
@@ -102,6 +113,7 @@ This wire is connected on one end to the sensor, the other end, has 3 exposed wi
 *[The blue wire is connected to the power supply ground.]
 *[The brown wire is connected to 24V on the power supply, used to power the sensor]
  
+ </ul>
 ***
 <img src="images/icons/construction.png" alt=" " width="100" height="100">
 
