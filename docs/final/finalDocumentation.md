@@ -1,9 +1,9 @@
 ### Page Index
 - [Executive Summary](#executive-summary)
-- [Design Architecture](design-architecture)
-- [Product Implementation](#product-implementation)
-- [Solution Architecture](#solution-architecture)
-    + [Architecture Diagram](#architecture-diagram)
+- [Design Architecture](#design-architecture)
+- [Design Implementation](#design-implementation)
+- [Project Management](#project-management)
+    + [Financial Management ](#financial-management)
     + [System State(s) Diagram](#system-states-diagram)
     + [Solution Sequence Diagram](#solution-sequence-diagram)
     
@@ -54,6 +54,7 @@ Compression: The current implementation affords complete compression of the self
 
 ***
 <img src="images/icons/prototype.png" alt=" " width="100" height="100" > 
+
 ### Design Architecture
  
 ***
@@ -120,7 +121,7 @@ https://docs.google.com/document/d/14mnJ_hAVgQfS5SkhmXBm52U9W-7HVQDcIqaKVMDcAnI/
 
 
 
-
+***
 
 
 
