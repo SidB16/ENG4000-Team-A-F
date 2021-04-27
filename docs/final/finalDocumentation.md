@@ -237,7 +237,7 @@ The patient’s safety, convenience and comfort have been the backbone principle
 
 ### Design Implementation
 
-Attached is the 15-minute video for our [design implementation.]((https://www.youtube.com/watch?v=T-PmtLg9tV0&ab_channel=AreebaAbidi) 
+Attached is the 15-minute video for our [design implementation.](https://www.youtube.com/watch?v=T-PmtLg9tV0&ab_channel=AreebaAbidi) 
  
 ***
 <img src="images/icons/creative.png" alt=" " width="100" height="100">
