@@ -11,7 +11,7 @@
 - [Electrical diagram of the Pneumatic Pumping mechanism](#electrical-diagram-of-the-pneumatic-pumping-mechanism)
 - [Block diagram of the Pneumatic Pumping mechanism](#block-diagram-of-the-pneumatic-pumping-mechanism)
 - [Project Management](#project-management)
-    +[Work Distribution](#work-distribution)
+    + [Work Distribution](#work-distribution)
 - [Financial Management](#financial-management)
 - [Reflection](#reflection)
     + [Jonathan Blumenfeld](#jonathan-blumenfeld)
@@ -290,9 +290,9 @@ Here is a snapshot of the Alpha release Sprint Planning board:
 <img src="images/management/man1.png" alt=" " >
 
 The beta release had to be modified due to delays in the shipments of parts. The original beta release plan entailed completing the assembly of the device. But instead, we tried getting the design with whatever parts were available during that moment. The Rasberry Pi, and the RPi Relay board were available and so we decided to figure out how those two components work and how could we power them. Additionally 3D models were created for the arm design to mount the pneumatic cylinder and the BVM as well as the assembly of the pnuematic components encapsulated in a casing. We formulated sprints to complete these tasks, and allocated the tasks according to team members availability and skill sets.  
-Details of the beta release roadmap can be found here. 
 
-Here is a snapshot of the Beta release Sprint Planning board:
+Here is a snapshot of the Beta release roadmap Sprint Planning board:
+
 <img src="images/management/man2.PNG" alt=" " >
 
 
@@ -309,6 +309,7 @@ Here is a snapshot of the final release Sprint Planning board:
 Creating an even work distribution was one of the challenges of the capstone project. Although we had strategies that helped balance out the work somewhat ultimately at different points in the project the work distribution was skewed/non-uniform. We used an agile project management style. The assigned product owner created tasks on the asana and the scrum master assigned the task according to the team members' access to resources in terms of access to the advisors,communication with stakeholders and physical access to the components of the product. 
 
 Since the assembly could only be done in one household and congregating to assemble the parts was not possible due to COVID-19 restrictions, the responsibility of assembling the parts would often fall on one group member.  This happened for both the MVP and the final product assembly, and made it very challenging for group members to do work concurrently. To support the group members doing assembly, other group members would take on other responsibilities, such as buying and delivering various components for the product.  We would also occasionally ferry the parts back and forth between households, according to the availability of each team member. If not for such crisis, it would be possible for the team to work together at one location. Unfortunately fate was not on our side in this regard.  
+
 Work distribution breakdown: (Not perfectly to scale but provide a rough estimate for the work distribution)
 
 <img src="images/management/man4.PNG" alt=" " >
@@ -359,7 +360,7 @@ This  price could potentially be further reduced when one considers that when pa
 <li>
 Early in the capstone project, our group had to decide between doing a software project and a biomechanical project.  We are a team of software and mechanical engineers, so the software project seemed like the obvious choice.  We elected however to go with the medical (automated BVM) project, as its objective resonated with us on a more personal level.
 This led to a few challenges.  
-Due to Covid, it was difficult to collaborate and work with each other remotely, and it was difficult to obtain parts in a timely fashion.  There was also a large learning curve in understanding mechanical engineering concepts and softwares such as solidworks. Despite these challenges, I am happy I chose a mechanical engineering project.  I learned through the challenges, that things worth doing are often challenging, and in many ways, I learned more from leaving my comfort zone than I would have had I done a software engineering project.  For example, the fact that our group had to meticulously plan out all of our sprints to do mechanical engineering and health related research, made it that we sharpened our project management skills significantly, so as not to lose any time.  Had we been more familiar with the type of work we would be doing, it is possible we would have rushed into the implementation phase without the same attention to detail for the design and requirements of our product.  
+Due to Covid, it was difficult to collaborate and work with each other remotely, and it was difficult to obtain parts in a timely fashion. There was also a large learning curve in understanding mechanical engineering concepts and softwares such as solidworks. Despite these challenges, I am happy I chose a mechanical engineering project.  I learned through the challenges, that things worth doing are often challenging, and in many ways, I learned more from leaving my comfort zone than I would have had I done a software engineering project.  For example, the fact that our group had to meticulously plan out all of our sprints to do mechanical engineering and health related research, made it that we sharpened our project management skills significantly, so as not to lose any time.  Had we been more familiar with the type of work we would be doing, it is possible we would have rushed into the implementation phase without the same attention to detail for the design and requirements of our product.  
 If I could advise myself in September would be to worry less about the final product and focus more on the learning journey, as what matters most is what you learn along the way, more so than how souped up your final product is. 
 On a more practical level, I would advise myself to get in contact with mechanical engineering experts as early as possible, as they proved to be crucial resources.  Also, I would advise myself to get to ordering parts as early as possible, we did not anticipate the impact shipment delays had on our ability to complete the project in a timely manner.
 </li>
