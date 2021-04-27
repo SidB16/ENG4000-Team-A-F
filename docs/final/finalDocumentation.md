@@ -431,7 +431,7 @@ We acknowledge, appreciate and thank everyone involved in helping our team succe
 
 <b>Nimesh Joshi:</b> for explaining how pneumatics work, providing technical feedback on the feasibility and appropriateness of our final design in the mechanical engineering perspective. Thank you tons for helping us make an essential part of our 3D model, proof our concept once ready and always being a phone call away to provide all types of engineering support.
 
-</b>Florin Urban, Michael London and Eddy (Aztec Supply):</b> for helping us actualize our design by proposing different approaches on implementation along with sourcing and delivering Festo products to our door at student discounted costs overnight. We can attribute the timely completion of our hardware implementations to your help.
+<b>Florin Urban, Michael London and Eddy (Aztec Supply):</b> for helping us actualize our design by proposing different approaches on implementation along with sourcing and delivering Festo products to our door at student discounted costs overnight. We can attribute the timely completion of our hardware implementations to your help.
 
 <b>Melina Tahami and Hannah Yorke Gambhir (Capstone team C):</b> for helping us learn SolidWorks and get our final design 3D printed, thank you so much for taking out the time to help us out.
 
