@@ -144,7 +144,7 @@ In trying to make our design portable we realized that making a compact carriabb
 
 #### Mechanical Diagram of the Pneumatic Pumping mechanism
 
-<img src="images/diagrams/Festo_Design.png" alt=" " width="600" height="300" >
+<img src="images/diagrams/Festo_Design.png" alt=" " width="700" height="350" >
 
 
 #### Block diagram of the Pneumatic Pumping mechanism
@@ -208,7 +208,7 @@ Raspberry pi 4 Model b: This microcontroller is powered on with a power adapter 
 <li>
     
 Relay: The relay is mounted on the Raspberry Pi microcontroller. Relay can convert  higher current to a lower value or vice versa depending on the scenario. The relay facilitates two types of contacts: Open contact and close contact.Open contact is when the relay circuit is open and it does not receive any power and it switches to a close contact(when the relay receives power) due to the phenomenon of electromagnetism. The relay is connected to the power supply on port 2 of channel 3 and a GPIO 26 on port 1. We used a 3 channel relay where each channel has an input, output and ground terminals. 
-</li>
+</li> </ul>
 
 #### Schematic diagram of the Electrical Components of the Pneumatic Pumping mechanism
 
@@ -218,7 +218,6 @@ Relay: The relay is mounted on the Raspberry Pi microcontroller. Relay can conve
 
 <img src="images/diagrams/electrical-connections.png" alt=" " >
 
-</ul>
 
 #### Code
 
@@ -424,7 +423,7 @@ This project journey has been a roller coaster of failures and successes. I work
 This project journey has given me some great insights. Firstly I would want to mention how I got a chance to work on a project which is extensively mechanical based and I myself am a software engineer. I would have never imagined gaining expertise in terms of how learn softwares used for 3D designing, certain life skills like drilling, hammering, working on the electrical components as throughout my degree I never came across such courses. This course evolved me professionally too. I learnt about how agile management works and how scrum meetings are like. A lot of problem solving skills and analysis skills were showcased and polished.In terms of teamwork, I learnt that there can be conflicts and ups and downs but because of the understanding teammates I had it wasn't hard to resolve it. This course taught me how to be patient when something goes wrong and how to fix something creatively rather than using an easy way out such as ordering a new component. All these skills will help me in future and made a better version of myself for which I am grateful for.
 </li>
 </ul>
-<br>
+
 
 ***
 
@@ -456,7 +455,7 @@ We acknowledge, appreciate and thank everyone involved in helping our team succe
 To all team member’s friends and family that loaned or gifted various household items and available electrical components to the team through our product iterations. 
 
 
-
+<br>
 ***
 <img src="images/icons/references.png" alt=" " width="100" height="100" >
 
