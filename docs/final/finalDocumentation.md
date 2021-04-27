@@ -20,7 +20,7 @@
     * [Shivani Joshi](#shivani-joshi)
     * [Priyam Shah](#priyam-shah)
     * [Areeba Abidi](#areeba-abidi)
-- [Acknowledgment and Appreciation] (#acknowledgment-and-appreciation)
+- [Acknowledgement and Appreciation](#acknowledgment-and-appreciation)
 - [References](#references)
     
     <br>
@@ -211,11 +211,11 @@ Raspberry pi 4 Model b: This microcontroller is powered on with a power adapter 
 Relay: The relay is mounted on the Raspberry Pi microcontroller. Relay can convert  higher current to a lower value or vice versa depending on the scenario. The relay facilitates two types of contacts: Open contact and close contact.Open contact is when the relay circuit is open and it does not receive any power and it switches to a close contact(when the relay receives power) due to the phenomenon of electromagnetism. The relay is connected to the power supply on port 2 of channel 3 and a GPIO 26 on port 1. We used a 3 channel relay where each channel has an input, output and ground terminals. 
 </li>
 
-#### Schematic diagram of the Electrical Components of the Pneumatic Pumping mechanism
+##### Schematic diagram of the Electrical Components of the Pneumatic Pumping mechanism
 
 <img src="images/diagrams/schematic.png" alt=" " >
 
-#### Electrical diagram of the Pneumatic Pumping mechanism
+##### Electrical diagram of the Pneumatic Pumping mechanism
 
 <img src="images/diagrams/electrical-connections.png" alt=" " >
 
