@@ -249,41 +249,8 @@ We should also try to test regressively looking for failure instances and come u
 
 #### Code
 
-#!/usr/bin/python
-# -*- coding:utf-8 -*-
-import RPi.GPIO as GPIO
-import time
- 
- 
-Relay_Ch3 = 26
-Input_Pin = 28
- 
-GPIO.setwarnings(False)
-GPIO.setmode(GPIO.BCM)
- 
-GPIO.setup(Relay_Ch3,GPIO.OUT)
-GPIO.setup(Input_Pin,GPIO.IN)
- 
-print("Setup The Relay Module is [success]")
- 
-try:
-    while True:
-       
-        #Control the Channel 3
-        GPIO.output(Relay_Ch3,GPIO.LOW)
-        print("The Piston is Retracted!!\n")
-        time.sleep(3)
-        
-        input = GPIO.input(Input_Pin)
-        print(input)
- 
-        GPIO.output(Relay_Ch3,GPIO.HIGH)
-        print("The Piston is Extended!!\n")
-        time.sleep(1.25)
-        
-except:
-    print("except")
-    GPIO.cleanup()
+<img src="images/diagrams/code.png" alt=" " >
+
 
 
 #### Schematic diagram of the Pneumatic Pumping mechanism
