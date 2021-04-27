@@ -352,9 +352,9 @@ This project journey has been a roller coaster of failures and successes.I worke
 </li>
 </ul>
 
-#### Areeba Abidi
+#### [Areeba Abidi](https://www.youtube.com/watch?v=XhSZAjDYGRk&ab_channel=AreebaAbidi)
 <ul>
-</ul>
+<li>
 This project journey has given me some great insights.Firstly I would want to mention how I got a chance to work on a project which is extensively mechanical based and I myself am a software engineer.I would have never imagined gaining expertise in terms of how learn softwares used for 3D designing, certain life skills like drilling, hammering, working on the electrical components as throughout my degree I never came across such courses.This course evolved me professionally too. I learnt about how agile management works and how scrum meetings are like. A lot of problem solving skills and analysis skills were showcased and polished.In terms of teamwork, I learnt that there can be conflicts and ups and downs but because of the understanding teammates I had it wasn't hard to resolve it. This course taught me how to be patient when something goes wrong and how to fix something creatively rather than using an easy way out such as ordering a new component.All these skills will help me in future and made a better version of myself for which I am grateful for.
 </li>
 </ul>
