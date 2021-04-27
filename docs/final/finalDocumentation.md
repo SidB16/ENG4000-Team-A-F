@@ -145,7 +145,7 @@ In trying to make our design portable we realized that making a compact carriabb
 
 #### Mechanical Diagram of the Pneumatic Pumping mechanism
 
-<img src="images/diagrams/Final_blockdiagram.png" alt=" " >
+<img src="images/diagrams/Festo_Design.png" alt=" " >
 
 
 #### Block diagram of the Pneumatic Pumping mechanism
