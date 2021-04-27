@@ -455,8 +455,8 @@ We acknowledge, appreciate and thank everyone involved in helping our team succe
 To all team member’s friends and family that loaned or gifted various household items and available electrical components to the team through our product iterations. 
 
 
-<br>
 ***
+
 <img src="images/icons/references.png" alt=" " width="100" height="100" >
 
 
