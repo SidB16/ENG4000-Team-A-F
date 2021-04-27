@@ -222,9 +222,66 @@ The patient’s safety, convenience and comfort have been the backbone principle
 
 ### Where would our project go next
 
+We designed the arms in a way that the automated mechanism could be brought to the patient in the ambulance instead of situating the patient close to a fixed bedside device. This would allow us to work around the medical infrastructure currently in place. For eg. if a patient requires intubation, the endotracheal tube inserted normally protrudes about 1 feet out of the patient's mouth. In case a bedside ventilator is available on board, extra tubing would have to be connected to the endotracheal tube to enable secure connectivity between the device and the patient. While this might be a feasible solution for hospital setups, there are many health risks associated with the same for an ambulance journey. Improper fastening of the extended tube can lead to injuries especially when the ambulance is in motion. Thus, our design can bring much value in securing patient safety and comfort. 
+
+We were initially considering the installation of two arms, perpendicularly. One arm end would have a C-bracket clasp that would hold the BVM whereas the other arm end would have the pneumatic cylinder fastened. Upon consultation with our supervisor we comprehended that this design would not be able to withstand the structural load i.e it could generate shear and tension forces that would act upon the arm holding the BVM, as a consequence of force being applied in the perpendicular axis. After careful consideration we inferred that there should be a C-structure erected atop the arm such that the cylinder pumps in the direction of the arm axis. 
+
+<ul>
+<li>
+    Technical Considerations:
+
+</li>
+<ul>
+    <li>
+        We would like to invest in researching and experimenting with the materials used to manufacture the arm and C-structure components. We would like for the arm structure to be tractable yet strong enough to carry the weight of a metallic C-structure carrying the pneumatic cylinder. We would also like to see if the best location to hitch the arm onto is the ambulance wall. We would like to look into the possibility of mounting it on the stretcher itself. 
+        
+Another avenue we could be interested in investigating is whether the patient is fastened to the bed during transportation or not, we must account for any sudden jerks or bumpy motion which would slam the stretcher and patient in turn. If this scenario were to result in injuries, we would need to seriously consider the alternative where the arm is attached to the stretcher instead of the ambulance wall.
+
+We must account for any power related surges, any contingencies if the battery is drained or the ambulance shuts down, how would the solenoid be powered? Sensor’s would not be the priority in situations like these, however, the fact that we can detach the BVM easily and start manual pumping can at least guarantee ventilation. 
+We should also try to test regressively looking for failure instances and come up with contingencies especially if the BVM is damaged in the process.  
+</li>
+        </ul>
+   </ul>     
+<li>
 
 
 #### Code
+
+#!/usr/bin/python
+# -*- coding:utf-8 -*-
+import RPi.GPIO as GPIO
+import time
+ 
+ 
+Relay_Ch3 = 26
+Input_Pin = 28
+ 
+GPIO.setwarnings(False)
+GPIO.setmode(GPIO.BCM)
+ 
+GPIO.setup(Relay_Ch3,GPIO.OUT)
+GPIO.setup(Input_Pin,GPIO.IN)
+ 
+print("Setup The Relay Module is [success]")
+ 
+try:
+    while True:
+       
+        #Control the Channel 3
+        GPIO.output(Relay_Ch3,GPIO.LOW)
+        print("The Piston is Retracted!!\n")
+        time.sleep(3)
+        
+        input = GPIO.input(Input_Pin)
+        print(input)
+ 
+        GPIO.output(Relay_Ch3,GPIO.HIGH)
+        print("The Piston is Extended!!\n")
+        time.sleep(1.25)
+        
+except:
+    print("except")
+    GPIO.cleanup()
 
 
 #### Schematic diagram of the Pneumatic Pumping mechanism
