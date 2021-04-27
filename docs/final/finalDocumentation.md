@@ -423,7 +423,7 @@ This project journey has given me some great insights. Firstly I would want to m
 
 We would like to thank everyone involved in helping our team succeed in our Capstone journey.
 
-We would like to acknowledge, appreciate and  thank everyone involved in helping our team succeed in our Capstone journey, you have all had a role in making this product possible.
+We acknowledge, appreciate and thank everyone involved in helping our team succeed in our Capstone journey, you have all had a role in making this product possible.
 
 <b>Franz Newland:</b> for taking us under his wings after a rushed proposal submission and approval at the start of them. You were a true mentor and support system for the team, we cannot appreciate all your technical, emotional and logistic support enough.
 
