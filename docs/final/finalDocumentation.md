@@ -329,13 +329,9 @@ In our final submission, all non-pneumatic components (with the exception of the
 We believe that the job we did saving money was quite admirable.  Although our device cost about $ $695.59, this number could be reduced to $520.46 when one factors in that many of the 108 ambulances that our product was designed for include air compressors (ours cost $175.13.)
 This  price could potentially be further reduced when one considers that when parts are bought in bulk for mass production, they are sold for less.  Having our device be low cost was one of the key goals for our project and we believe we have met that at $520.46 we have met that requirement.  
 
-Link to team expenses document:
-https://docs.google.com/spreadsheets/d/1CPhQy4uPNchHIrxZJhlksTB_un8ZhwJPs0NymQpLDPM/edit#gid=0
-Original cost of pneumatic components:
-https://docs.google.com/document/d/1FXZbaBwHJNdu3NB8xzcIHxG4ReOM9Sst7z263wTPhvk/edit?usp=sharing
-Updated cost of pneumatic components:
-https://docs.google.com/document/d/14mnJ_hAVgQfS5SkhmXBm52U9W-7HVQDcIqaKVMDcAnI/edit?usp=sharing
-
+[Link to team expenses document](images/doc/Team Expenses - Sheet1 (1).pdf)
+[Original cost of pneumatic components](images/doc/Q0542464 (1).PDF)
+[Updated cost of pneumatic components](images/doc/Q0542464.PDF)
 
 
 ***
