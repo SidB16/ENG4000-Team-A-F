@@ -5,7 +5,13 @@
     + [Electronic and Software system as Built](#electronic-and-software-system-as-built)
 - [Design Implementation](#design-implementation)
 - [Performance Analysis](#performance-analysis)
+- [Where would our project go next](#where-would-our-project-go-next)
+- [Code](#code)
+- [Schematic diagram of the Pneumatic Pumping mechanism](schematic-diagram-of the-pneumatic-pumping-mechanism)
+- [Electrical diagram of the Pneumatic Pumping mechanism](electrical-diagram-of the-pneumatic-pumping-mechanism)
+- [Block diagram of the Pneumatic Pumping mechanism](block-diagram-of the-pneumatic-pumping-mechanism)
 - [Project Management](#project-management)
+- [Financial Management](#financial-management)
 - [Reflection](#reflection)
     + [Jonathan Blumenfeld](#jonathan-blumenfeld)
     + [Shivani Joshi](#shivani-joshi)
@@ -214,7 +220,12 @@ We tried designing a barometer out of spare plastic tubing to compare the differ
 
 The patient’s safety, convenience and comfort have been the backbone principles driving our innovation so when it came to implementing and operating the electrical components, we were equally cautious. We checked the voltage and power threshold for each component and made sure to measure the voltage and current passing through them, using a multimeter, before the circuits were made, preventing a short circuit. 
 
+### Where would our project go next
+
+
+
 #### Code
+
 
 #### Schematic diagram of the Pneumatic Pumping mechanism
 
