@@ -247,6 +247,7 @@ We should also try to test regressively looking for failure instances and come u
 
 #### Code
 
+<img src="images/diagrams/code.PNG" alt=" " >
     
  ***
 
