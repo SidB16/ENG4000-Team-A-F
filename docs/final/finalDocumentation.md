@@ -226,23 +226,23 @@ We designed the arms in a way that the automated mechanism could be brought to t
 
 We were initially considering the installation of two arms, perpendicularly. One arm end would have a C-bracket clasp that would hold the BVM whereas the other arm end would have the pneumatic cylinder fastened. Upon consultation with our supervisor we comprehended that this design would not be able to withstand the structural load i.e it could generate shear and tension forces that would act upon the arm holding the BVM, as a consequence of force being applied in the perpendicular axis. After careful consideration we inferred that there should be a C-structure erected atop the arm such that the cylinder pumps in the direction of the arm axis. 
 
-<ul>
-<li>
+
     Technical Considerations:
 
-</li>
+
 <ul>
     <li>
         We would like to invest in researching and experimenting with the materials used to manufacture the arm and C-structure components. We would like for the arm structure to be tractable yet strong enough to carry the weight of a metallic C-structure carrying the pneumatic cylinder. We would also like to see if the best location to hitch the arm onto is the ambulance wall. We would like to look into the possibility of mounting it on the stretcher itself. 
-        
+</li>
+<li>    
 Another avenue we could be interested in investigating is whether the patient is fastened to the bed during transportation or not, we must account for any sudden jerks or bumpy motion which would slam the stretcher and patient in turn. If this scenario were to result in injuries, we would need to seriously consider the alternative where the arm is attached to the stretcher instead of the ambulance wall.
-
+    </li>
+    <li>
 We must account for any power related surges, any contingencies if the battery is drained or the ambulance shuts down, how would the solenoid be powered? Sensor’s would not be the priority in situations like these, however, the fact that we can detach the BVM easily and start manual pumping can at least guarantee ventilation. 
 We should also try to test regressively looking for failure instances and come up with contingencies especially if the BVM is damaged in the process.  
 </li>
-        </ul>
+      
    </ul>     
-<li>
 
 
 #### Code
