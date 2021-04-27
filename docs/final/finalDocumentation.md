@@ -189,7 +189,7 @@ Voltage Divider Circuit: This connects sensor output to the Pi.The wire carrying
    </ul>     
 <li>
    
-Raspberry pi 4 Model b: This microcontroller is powered on with a power adapter (5V supply). The control code is written in a python script that runs on boot up. The code implements a switching mechanism for the solenoid. We switch between 24-0V at the rate of 14 breaths/min, the time intervals are mentioned in the code here (EMBED THIS). 
+Raspberry pi 4 Model b: This microcontroller is powered on with a power adapter (5V supply). The control code is written in a python script that runs on boot up. The code implements a switching mechanism for the solenoid. We switch between 24-0V at the rate of 14 breaths/min, the time intervals are mentioned in the[ code here.](images/diagrams/code.PNG) 
     </li>
 <li>
     
@@ -199,7 +199,7 @@ Relay: The relay is mounted on the Raspberry Pi microcontroller. Relay can conve
 
 ### Performance Analysis
 
-For our product to work as desired, the pneumatic components that draw power should be connected as mentioned above and powered on correctly. Once the circuits are made and pressurized air is provided, the piston will pump at 14 breaths/min. We ran several tests by modifying the periodic switching between 24-0V, successfully varying the pump rate between 12-20 breaths per minute. The duration of time the system is left running has little effect on the pump rate, deviation being ±1 breath/min. The 14 breaths/min were achieved by testing out different parameters for the time.sleep() function which is called twice, once during extension and again during retraction of the pneumatic cylinder piston, as seen in the code (embed). 
+For our product to work as desired, the pneumatic components that draw power should be connected as mentioned above and powered on correctly. Once the circuits are made and pressurized air is provided, the piston will pump at 14 breaths/min. We ran several tests by modifying the periodic switching between 24-0V, successfully varying the pump rate between 12-20 breaths per minute. The duration of time the system is left running has little effect on the pump rate, deviation being ±1 breath/min. The 14 breaths/min were achieved by testing out different parameters for the time.sleep() function which is called twice, once during extension and again during retraction of the pneumatic cylinder piston, as seen in the code (images/diagrams/code.PNG)
 
 
 The system is left running for about an hour to check for overheating and clogging, there were no anomalies in operation recorded. We did however note that a compressor that can pump upto 80psi would be sufficient as opposed to the max. 120psi one which has a large reservoir tank. The air compressor we connected to for testing had a holding capacity of 11.1L which proved to be quite small, leading to the compressor being turned on rather frequently(every 30 seconds). We noticed that with a pressure setting of 50psi, we were able to squeeze the bag a desirable amount but the pump rate reduced by a factor of -2 pumps/min. In order to achieve the 14 pumps/min rate we would have to tweek the time.sleep() parameters a bit but consuming air at a reduced pressure would increase the flow rate significantly, triggering the compressor to turn on every 10 seconds. However, in case of a loose connection or leakage low pressure air can do less physical harm whereas high pressure air reduces noise pollution but optimizes the air flow for the same pump rates. We wish to test this aspect further to strike a good balance between safety and efficiency.
@@ -226,31 +226,29 @@ We designed the arms in a way that the automated mechanism could be brought to t
 
 We were initially considering the installation of two arms, perpendicularly. One arm end would have a C-bracket clasp that would hold the BVM whereas the other arm end would have the pneumatic cylinder fastened. Upon consultation with our supervisor we comprehended that this design would not be able to withstand the structural load i.e it could generate shear and tension forces that would act upon the arm holding the BVM, as a consequence of force being applied in the perpendicular axis. After careful consideration we inferred that there should be a C-structure erected atop the arm such that the cylinder pumps in the direction of the arm axis. 
 
-Here is the link to our [3D model design](https://www.youtube.com/watch?v=pYWL6JigDXs) that we wished to test and implement!
 
-<ul>
-<li>
     Technical Considerations:
 
-</li>
+
 <ul>
     <li>
         We would like to invest in researching and experimenting with the materials used to manufacture the arm and C-structure components. We would like for the arm structure to be tractable yet strong enough to carry the weight of a metallic C-structure carrying the pneumatic cylinder. We would also like to see if the best location to hitch the arm onto is the ambulance wall. We would like to look into the possibility of mounting it on the stretcher itself. 
-       
+</li>
+<li>    
 Another avenue we could be interested in investigating is whether the patient is fastened to the bed during transportation or not, we must account for any sudden jerks or bumpy motion which would slam the stretcher and patient in turn. If this scenario were to result in injuries, we would need to seriously consider the alternative where the arm is attached to the stretcher instead of the ambulance wall.
-
+    </li>
+    <li>
 We must account for any power related surges, any contingencies if the battery is drained or the ambulance shuts down, how would the solenoid be powered? Sensor’s would not be the priority in situations like these, however, the fact that we can detach the BVM easily and start manual pumping can at least guarantee ventilation. 
 We should also try to test regressively looking for failure instances and come up with contingencies especially if the BVM is damaged in the process.  
 </li>
-        </ul>
+      
    </ul>     
-<li>
 
 
 #### Code
 
-<img src="images/diagrams/code.PNG" alt=" " >
-
+    
+ ***
 
 
 #### Schematic diagram of the Pneumatic Pumping mechanism
