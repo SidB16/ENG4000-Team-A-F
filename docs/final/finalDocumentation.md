@@ -19,7 +19,7 @@
     * [Shivani Joshi](#shivani-joshi)
     * [Priyam Shah](#priyam-shah)
     * [Areeba Abidi](#areeba-abidi)
-- [Acknowledgement and Appreciation](#acknowledgment-and-appreciation)
+- [Acknowledgment and Appreciation](#acknowledgment-and-appreciation)
 - [References](#references)
     
     <br>
@@ -433,9 +433,7 @@ This project journey has given me some great insights. Firstly I would want to m
 <img src="images/icons/thank-you.png" alt=" " width="100" height="100" >
 
 
-### Acknowledgement and Appreciation
-
-We would like to thank everyone involved in helping our team succeed in our Capstone journey.
+### Acknowledgment and Appreciation
 
 We acknowledge, appreciate and thank everyone involved in helping our team succeed in our Capstone journey, you have all had a role in making this product possible.
 
