@@ -227,7 +227,7 @@ We designed the arms in a way that the automated mechanism could be brought to t
 
 We were initially considering the installation of two arms, perpendicularly. One arm end would have a C-bracket clasp that would hold the BVM whereas the other arm end would have the pneumatic cylinder fastened. Upon consultation with our supervisor we comprehended that this design would not be able to withstand the structural load i.e it could generate shear and tension forces that would act upon the arm holding the BVM, as a consequence of force being applied in the perpendicular axis. After careful consideration we inferred that there should be a C-structure erected atop the arm such that the cylinder pumps in the direction of the arm axis. 
 
-Attached here is our video for the [3D design](https://www.youtube.com/watch?v=pYWL6JigDXs) we wished to implement.
+Attached here is our video for the [3D design](https://www.youtube.com/watch?v=pYWL6JigDXs) we would have implemented if not for the pandemic.
 
 Technical Considerations:
 
