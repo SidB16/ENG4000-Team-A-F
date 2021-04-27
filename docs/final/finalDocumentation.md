@@ -7,9 +7,9 @@
 - [Performance Analysis](#performance-analysis)
 - [Where would our project go next](#where-would-our-project-go-next)
 - [Code](#code)
-- [Schematic diagram of the Pneumatic Pumping mechanism](schematic-diagram-of the-pneumatic-pumping-mechanism)
-- [Electrical diagram of the Pneumatic Pumping mechanism](electrical-diagram-of the-pneumatic-pumping-mechanism)
-- [Block diagram of the Pneumatic Pumping mechanism](block-diagram-of the-pneumatic-pumping-mechanism)
+- [Schematic diagram of the Pneumatic Pumping mechanism](#schematic-diagram-of the-pneumatic-pumping-mechanism)
+- [Electrical diagram of the Pneumatic Pumping mechanism](#electrical-diagram-of the-pneumatic-pumping-mechanism)
+- [Block diagram of the Pneumatic Pumping mechanism](#block-diagram-of the-pneumatic-pumping-mechanism)
 - [Project Management](#project-management)
 - [Financial Management](#financial-management)
 - [Reflection](#reflection)
@@ -256,14 +256,13 @@ Attached is the 15-minute video for our [design implementation.](https://www.you
 ### Project Management 
 
 Although we are an agile team, for the winter semester we modified our project management style, using a waterfall-agile hybrid approach for the alpha release, and an agile approach for the beta and final release.  
-The alpha release consisted of researching and designing the mechanism that would pump the BVM.  The research was done with specially designated research sprints, while the design was done through consultation with advisors.  
-Details of the alpha release roadmap can be found here. 
 
+The alpha release consisted of exploring different design pumping mechanisms to automate the BVM. The sprints during the alpha release were mainly based on researching into the different pumping mechanisms and discuss the design ideas by consulting different industrial experts.
 Here is a snapshot of the Alpha release Sprint Planning board:
 
 <img src="images/management/man1.png" alt=" " >
 
-The beta release had to be modified due to delays in the shipments of parts. The original beta release plan entailed completing the assembly of the device. This was changed to completing the design of the parts that had arrived by the beta release deadline: the Rasberry Pi, and the RPi Relay board.  Additionally it included designing and 3D printing the mount for the Cylinder which compressed the bag.  We formulated sprints to complete these tasks, and allocated the tasks according to team members availability and skill sets.  
+The beta release had to be modified due to delays in the shipments of parts. The original beta release plan entailed completing the assembly of the device. But instead, we tried getting the design with whatever parts were available during that moment. The Rasberry Pi, and the RPi Relay board were available and so we decided to figure out how those two components work and how could we power them. Additionally 3D models were created for the arm design to mount the pneumatic cylinder and the BVM as well as the assembly of the pnuematic components encapsulated in a casing. We formulated sprints to complete these tasks, and allocated the tasks according to team members availability and skill sets.  
 Details of the beta release roadmap can be found here. 
 
 Here is a snapshot of the Beta release Sprint Planning board:
@@ -271,16 +270,18 @@ Here is a snapshot of the Beta release Sprint Planning board:
 
 
 
-The final release consisted of assembling and testing out the final design.  Once we received the parts, we ran a sprint to allocate assignments for each task.  
+The final release consisted of assembling and testing out the final design.  Once we received the parts, we ran a sprint to allocate assignments for each task. We tested each part individually before connecting the whole design together such that it is easy to troubleshoot and figure out if any part is damaged in advance. We figured out how to power up the solenoid and the sensors during this release.
+
 Here is a snapshot of the final release Sprint Planning board:
 
 <img src="images/management/man3.png" alt=" " >
 
 
 Work Distribution
+
 Creating an even work distribution was one of the challenges of the capstone project. Although we had strategies that helped balance out the work somewhat ultimately at different points in the project the work distribution was skewed/non-uniform. We used an agile project management style. The assigned product owner created tasks on the asana and the scrum master assigned the task according to the team members' access to resources in terms of access to the advisors,communication with stakeholders and physical access to the components of the product. 
 
-Since the assembly could only be done in one household and congregating to assemble the parts was not possible due to COVID-19 restrictions, the responsibility of assembling the parts would often fall on one group member.  This happened for both the MVP and the final product assembly, and made it very challenging for group members to do work concurrently.  To support the group members doing assembly, other group members would take on other responsibilities, such as buying and delivering various components for the product.  We would also occasionally ferry the parts back and forth between households, according to the availability of each team member. For example, the electrical components for the final design were assembled at one house, while the final assembly took place at another.   In an ideal world it would be possible for each group member to have their own prototype to work on, or it would be possible to work together on one prototype in one location.  Unfortunately fate was not on our side in this regard.  
+Since the assembly could only be done in one household and congregating to assemble the parts was not possible due to COVID-19 restrictions, the responsibility of assembling the parts would often fall on one group member.  This happened for both the MVP and the final product assembly, and made it very challenging for group members to do work concurrently. To support the group members doing assembly, other group members would take on other responsibilities, such as buying and delivering various components for the product.  We would also occasionally ferry the parts back and forth between households, according to the availability of each team member. If not for such crisis, it would be possible for the team to work together at one location. Unfortunately fate was not on our side in this regard.  
 Work distribution breakdown: (Not perfectly to scale but provide a rough estimate for the work distribution)
 
 <img src="images/management/man4.PNG" alt=" " >
