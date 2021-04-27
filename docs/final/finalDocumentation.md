@@ -2,9 +2,8 @@
 - [Executive Summary](#executive-summary)
 - [Design Architecture](#design-architecture)
     * [Pneumatic System as Built](#pneumatic-system-as-built)
-        + [Block diagram of the Pneumatic Pumping mechanism](#block-diagram-of-the-pneumatic-pumping-mechanism)
         + [Mechanical Diagram of the Pneumatic Pumping mechanism](#mechanical-diagram-of-the-pneumatic-pumping-mechanism)
-
+        + [Block diagram of the Pneumatic Pumping mechanism](#block-diagram-of-the-pneumatic-pumping-mechanism)
     * [Electronic and Software system as Built](#electronic-and-software-system-as-built)
         + [Schematic diagram of the Electrical Components of the Pneumatic Pumping mechanism](#schematic-diagram-of-the-electrical-components-of-the-pneumatic-pumping-mechanism)
         + [Electrical diagram of the Pneumatic Pumping mechanism](#electrical-diagram-of-the-pneumatic-pumping-mechanism)
@@ -141,18 +140,18 @@ SMBR-8-25:mounts on the top of  the pneumatic cylinder to hold the sensor
 We plan on placing the air prep unit and the solenoid valve together at a location that is yet to be determined based on where other medical equipment and the air compressor are situated in the ambulance. These components will be placed inside of a casing (open from the top and bottom), that is easily accessible incase maintenance is required. 
 </li>
 <li>
-In trying to make our design portable we realized that making a compact carriabble ventilator would not be technically feasible because of special orientation requirements of the air prep unit (only ± 5°deflection from 90° allowed) so we opted to make a semi-portable design. Our design will be restricted to the ambulance but will allow the automated BVM pumping mechanism to be brought to a patient wherever they are situated, regardless of the height or placement of their bed. Our design does not require the medical professionals to provide extensions to the endotracheal tube or mask end, to connect with the BVM as we make sure our system enables all functionalities and conveniences a manual BVM provides. </li>  
+In trying to make our design portable we realized that making a compact carriabble ventilator would not be technically feasible because of special orientation requirements of the air prep unit (only ± 5°deflection from 90° allowed) so we opted to make a semi-portable design. Our design will be restricted to the ambulance but will allow the automated BVM pumping mechanism to be brought to a patient wherever they are situated, regardless of the height or placement of their bed. Our design does not require the medical professionals to provide extensions to the endotracheal tube or mask end, to connect with the BVM as we make sure our system enables all functionalities and conveniences a manual BVM provides. </li>  </ul>
 
 #### Mechanical Diagram of the Pneumatic Pumping mechanism
 
-<img src="images/diagrams/Festo_Design.png" alt=" ", width="300", height="300" >
+<img src="images/diagrams/Festo_Design.png" alt=" " width="300" height="300" >
 
 
 #### Block diagram of the Pneumatic Pumping mechanism
 
 <img src="images/diagrams/Final_blockdiagram.png" alt=" " >
 
-</ul>
+
 
 #### Electrical and Software System-as-Built: 
 <ul>
