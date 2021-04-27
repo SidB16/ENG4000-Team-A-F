@@ -370,29 +370,29 @@ On a more practical level, I would advise myself to get in contact with mechanic
 #### [Shivani Joshi](https://youtu.be/R7sIbKhGJ5M)
 <ul>
     
-    <li>
-         The Capstone journey has been full of many firsts for me, each accompanied with lessons and trials of their own. However, I am extremely glad for discussing my proposal for an automated BVM, with the course directors. 
-    </li>
-    
-    <li>
-    I got the valuable experience of working as a requirements elicitor, product owner in an agile setup, lead product designer, solution architect and assembler on a project that incorporated mechanical, electrical, structural and computer engineering engagements. 
-    </li>
-    
-    <li>
-    I was able to invest time in studying and applying the Agile methodology, a skill essential to have as a soon to graduate Computer Engineer. It gave me an insight into how intriguing and demanding the role of a Product Owner is, especially since I worked very closely with one during my Internship terms as an API Developer. I also got the opportunity to learn 3D Modeling using SolidWorks to realize the design in my thoughts, learning how to 3D print the design helped make these ideas tangible. I also got the chance to work on a large chunk of technical and design documentation for the Pneumatic, Electrical and Software based elements. Furthermore, while working on implementing the pnuematic design, while talking to Franz we recognized that working as a pure Agile team was not practical and hence we pivoted to more of a Agile-Waterfall Hybrid model of Project Management instead. This decision helped us navigate our deliverables timeline with more ease when our the shipment of our parts got delayed several times.
-    </li>
-    
-    <li>
-    I realized the importance of a diverse engineering team and the drawbacks of not having an assortment of expertises working towards building a product that can have a tremendous positive impact on the lives of many. If I could do it all over again, I would like to propose this challenge and tackle it under the C4 Capstone section. I believe that would still have contributed to my learning and growth yet made the journey less stressful. 
-    </li>
-    
-    <li>
-    Oftentimes I felt the pressure to gain extensive knowledge on technical processes related to engineering fields that are extremely essential to this project's success but ones I did not get the chance to learn about through my years at Lassonde. I, however, looked for experts that could help fill this gap in mastery, as the product owner, and built great relationships with industry professionals who were equally excited and passionate to see our goals to fruition. 
-    </li>
-    
-    <li>
-    Working on a small team in high stress circumstances, partly attributed to the Covid-19 Pandemic, the importance of being kind to myself and introspective of how the work might affect my mental health came to light. I believed a team that was passionate about their labour would work really well together, ultra focused on their collective goal in spite of some difference in opinions. This idea was shattered when I recognized the sheer difference in work ethic between certain members of the team and that individual’s perception of respect, passion and dedication could be divergent. In retrospect I would like to give an equally sincere consideration to assembling a team as I did to finalizing our project avenue.
-    </li>
+<li>
+     The Capstone journey has been full of many firsts for me, each accompanied with lessons and trials of their own. However, I am extremely glad for discussing my proposal for an automated BVM, with the course directors. 
+</li>
+
+<li>
+I got the valuable experience of working as a requirements elicitor, product owner in an agile setup, lead product designer, solution architect and assembler on a project that incorporated mechanical, electrical, structural and computer engineering engagements. 
+</li>
+
+<li>
+I was able to invest time in studying and applying the Agile methodology, a skill essential to have as a soon to graduate Computer Engineer. It gave me an insight into how intriguing and demanding the role of a Product Owner is, especially since I worked very closely with one during my Internship terms as an API Developer. I also got the opportunity to learn 3D Modeling using SolidWorks to realize the design in my thoughts, learning how to 3D print the design helped make these ideas tangible. I also got the chance to work on a large chunk of technical and design documentation for the Pneumatic, Electrical and Software based elements. Furthermore, while working on implementing the pnuematic design, while talking to Franz we recognized that working as a pure Agile team was not practical and hence we pivoted to more of a Agile-Waterfall Hybrid model of Project Management instead. This decision helped us navigate our deliverables timeline with more ease when our the shipment of our parts got delayed several times.
+</li>
+
+<li>
+I realized the importance of a diverse engineering team and the drawbacks of not having an assortment of expertises working towards building a product that can have a tremendous positive impact on the lives of many. If I could do it all over again, I would like to propose this challenge and tackle it under the C4 Capstone section. I believe that would still have contributed to my learning and growth yet made the journey less stressful. 
+</li>
+
+<li>
+Oftentimes I felt the pressure to gain extensive knowledge on technical processes related to engineering fields that are extremely essential to this project's success but ones I did not get the chance to learn about through my years at Lassonde. I, however, looked for experts that could help fill this gap in mastery, as the product owner, and built great relationships with industry professionals who were equally excited and passionate to see our goals to fruition. 
+</li>
+
+<li>
+Working on a small team in high stress circumstances, partly attributed to the Covid-19 Pandemic, the importance of being kind to myself and introspective of how the work might affect my mental health came to light. I believed a team that was passionate about their labour would work really well together, ultra focused on their collective goal in spite of some difference in opinions. This idea was shattered when I recognized the sheer difference in work ethic between certain members of the team and that individual’s perception of respect, passion and dedication could be divergent. In retrospect I would like to give an equally sincere consideration to assembling a team as I did to finalizing our project avenue.
+</li>
 
 </ul>
 
@@ -425,7 +425,7 @@ We would like to thank everyone involved in helping our team succeed in our Caps
 
 We would like to acknowledge, appreciate and  thank everyone involved in helping our team succeed in our Capstone journey, you have all had a role in making this product possible.
 
-Franz Newland: for taking us under his wings after a rushed proposal submission and approval at the start of them. You were a true mentor and support system for the team, we cannot appreciate all your technical, emotional and logistic support enough.
+<b>Franz Newland: </b> for taking us under his wings after a rushed proposal submission and approval at the start of them. You were a true mentor and support system for the team, we cannot appreciate all your technical, emotional and logistic support enough.
 
 Stakeholders: for educating us on the circumstances under which the health care systems in the United States, Canada and India are operating, their distinct challenges and strengths. For always making time to consult on our medical and infrastructure related queries. For providing feedback on the practicality of our final design and so much more.  
 Nimesh Joshi: for explaining how pneumatics work, providing technical feedback on the feasibility and appropriateness of our final design in the mechanical engineering perspective. Thank you tons for helping us make an essential part of our 3D model, proof our concept once ready and always being a phone call away to provide all types of engineering support.
