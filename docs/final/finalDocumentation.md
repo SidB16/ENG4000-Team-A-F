@@ -2,15 +2,14 @@
 - [Executive Summary](#executive-summary)
 - [Design Architecture](#design-architecture)
     + [Pneumatic System as Built](#pneumatic-system-as-built)
+        * [Block diagram of the Pneumatic Pumping mechanism](#block-diagram-of-the-pneumatic-pumping-mechanism)
     + [Electronic and Software system as Built](#electronic-and-software-system-as-built)
+        * [Schematic diagram of the Electrical Components of the Pneumatic Pumping mechanism](#schematic-diagram-of-the-electrical-components-of-the-pneumatic-pumping-mechanism)
+        * [Electrical diagram of the Pneumatic Pumping mechanism](#electrical-diagram-of-the-pneumatic-pumping-mechanism)
     + [Code](#code)
 - [Design Implementation](#design-implementation)
 - [Performance Analysis](#performance-analysis)
 - [Where would our project go next](#where-would-our-project-go-next)
-
-- [Schematic diagram of the Pneumatic Pumping mechanism](#schematic-diagram-of-the-pneumatic-pumping-mechanism)
-- [Electrical diagram of the Pneumatic Pumping mechanism](#electrical-diagram-of-the-pneumatic-pumping-mechanism)
-- [Block diagram of the Pneumatic Pumping mechanism](#block-diagram-of-the-pneumatic-pumping-mechanism)
 - [Project Management](#project-management)
     + [Work Distribution](#work-distribution)
 - [Financial Management](#financial-management)
@@ -139,7 +138,14 @@ SMBR-8-25:mounts on the top of  the pneumatic cylinder to hold the sensor
 We plan on placing the air prep unit and the solenoid valve together at a location that is yet to be determined based on where other medical equipment and the air compressor are situated in the ambulance. These components will be placed inside of a casing (open from the top and bottom), that is easily accessible incase maintenance is required. 
 </li>
 <li>
-In trying to make our design portable we realized that making a compact carriabble ventilator would not be technically feasible because of special orientation requirements of the air prep unit (only ± 5°deflection from 90° allowed) so we opted to make a semi-portable design. Our design will be restricted to the ambulance but will allow the automated BVM pumping mechanism to be brought to a patient wherever they are situated, regardless of the height or placement of their bed. Our design does not require the medical professionals to provide extensions to the endotracheal tube or mask end, to connect with the BVM as we make sure our system enables all functionalities and conveniences a manual BVM provides. </li>  </ul>
+In trying to make our design portable we realized that making a compact carriabble ventilator would not be technically feasible because of special orientation requirements of the air prep unit (only ± 5°deflection from 90° allowed) so we opted to make a semi-portable design. Our design will be restricted to the ambulance but will allow the automated BVM pumping mechanism to be brought to a patient wherever they are situated, regardless of the height or placement of their bed. Our design does not require the medical professionals to provide extensions to the endotracheal tube or mask end, to connect with the BVM as we make sure our system enables all functionalities and conveniences a manual BVM provides. </li>  
+
+
+#### Block diagram of the Pneumatic Pumping mechanism
+
+<img src="images/diagrams/Final_blockdiagram.png" alt=" " >
+
+</ul>
 
 #### Electrical and Software System-as-Built: 
 <ul>
@@ -197,6 +203,15 @@ Raspberry pi 4 Model b: This microcontroller is powered on with a power adapter 
     
 Relay: The relay is mounted on the Raspberry Pi microcontroller. Relay can convert  higher current to a lower value or vice versa depending on the scenario. The relay facilitates two types of contacts: Open contact and close contact.Open contact is when the relay circuit is open and it does not receive any power and it switches to a close contact(when the relay receives power) due to the phenomenon of electromagnetism. The relay is connected to the power supply on port 2 of channel 3 and a GPIO 26 on port 1. We used a 3 channel relay where each channel has an input, output and ground terminals. 
 </li>
+
+#### Schematic diagram of the Electrical Components of the Pneumatic Pumping mechanism
+
+<img src="images/diagrams/schematic.png" alt=" " >
+
+#### Electrical diagram of the Pneumatic Pumping mechanism
+
+<img src="images/diagrams/electrical-connections.png" alt=" " >
+
 </ul>
 
 #### Code
@@ -226,7 +241,7 @@ We tried designing a barometer out of spare plastic tubing to compare the differ
 
 The patient’s safety, convenience and comfort have been the backbone principles driving our innovation so when it came to implementing and operating the electrical components, we were equally cautious. We checked the voltage and power threshold for each component and made sure to measure the voltage and current passing through them, using a multimeter, before the circuits were made, preventing a short circuit. 
 
-### Where would our project go next
+### Where would our project go next?
 
 We designed the arms in a way that the automated mechanism could be brought to the patient in the ambulance instead of situating the patient close to a fixed bedside device. This would allow us to work around the medical infrastructure currently in place. For eg. if a patient requires intubation, the endotracheal tube inserted normally protrudes about 1 feet out of the patient's mouth. In case a bedside ventilator is available on board, extra tubing would have to be connected to the endotracheal tube to enable secure connectivity between the device and the patient. While this might be a feasible solution for hospital setups, there are many health risks associated with the same for an ambulance journey. Improper fastening of the extended tube can lead to injuries especially when the ambulance is in motion. Thus, our design can bring much value in securing patient safety and comfort. 
 
@@ -254,20 +269,11 @@ We should also try to test regressively looking for failure instances and come u
 
 
     
- ***
 
 
-#### Schematic diagram of the Pneumatic Pumping mechanism
 
-<img src="images/diagrams/schematic.png" alt=" " >
 
-#### Electrical diagram of the Pneumatic Pumping mechanism
 
-<img src="images/diagrams/electrical-connections.png" alt=" " >
-
-#### Block diagram of the Pneumatic Pumping mechanism
-
-<img src="images/diagrams/Final_blockdiagram.png" alt=" " >
 
 
 
