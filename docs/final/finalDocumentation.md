@@ -3,10 +3,11 @@
 - [Design Architecture](#design-architecture)
     + [Pneumatic System as Built](#pneumatic-system-as-built)
     + [Electronic and Software system as Built](#electronic-and-software-system-as-built)
+    + [Code](#code)
 - [Design Implementation](#design-implementation)
 - [Performance Analysis](#performance-analysis)
 - [Where would our project go next](#where-would-our-project-go-next)
-- [Code](#code)
+
 - [Schematic diagram of the Pneumatic Pumping mechanism](#schematic-diagram-of-the-pneumatic-pumping-mechanism)
 - [Electrical diagram of the Pneumatic Pumping mechanism](#electrical-diagram-of-the-pneumatic-pumping-mechanism)
 - [Block diagram of the Pneumatic Pumping mechanism](#block-diagram-of-the-pneumatic-pumping-mechanism)
@@ -198,6 +199,10 @@ Relay: The relay is mounted on the Raspberry Pi microcontroller. Relay can conve
 </li>
 </ul>
 
+#### Code
+
+<img src="images/diagrams/code.PNG" alt=" " >
+
 ### Performance Analysis
 
 For our product to work as desired, the pneumatic components that draw power should be connected as mentioned above and powered on correctly. Once the circuits are made and pressurized air is provided, the piston will pump at 14 breaths/min. We ran several tests by modifying the periodic switching between 24-0V, successfully varying the pump rate between 12-20 breaths per minute. The duration of time the system is left running has little effect on the pump rate, deviation being ±1 breath/min. The 14 breaths/min were achieved by testing out different parameters for the time.sleep() function which is called twice, once during extension and again during retraction of the pneumatic cylinder piston, as seen in the code (images/diagrams/code.PNG)
@@ -247,9 +252,7 @@ We should also try to test regressively looking for failure instances and come u
    </ul>     
 
 
-#### Code
 
-<img src="images/diagrams/code.PNG" alt=" " >
     
  ***
 
