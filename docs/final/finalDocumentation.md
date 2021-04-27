@@ -1,23 +1,26 @@
 ### Page Index
 - [Executive Summary](#executive-summary)
 - [Design Architecture](#design-architecture)
-    + [Pneumatic System as Built](#pneumatic-system-as-built)
-        * [Block diagram of the Pneumatic Pumping mechanism](#block-diagram-of-the-pneumatic-pumping-mechanism)
-    + [Electronic and Software system as Built](#electronic-and-software-system-as-built)
-        * [Schematic diagram of the Electrical Components of the Pneumatic Pumping mechanism](#schematic-diagram-of-the-electrical-components-of-the-pneumatic-pumping-mechanism)
-        * [Electrical diagram of the Pneumatic Pumping mechanism](#electrical-diagram-of-the-pneumatic-pumping-mechanism)
-    + [Code](#code)
+    * [Pneumatic System as Built](#pneumatic-system-as-built)
+        + [Block diagram of the Pneumatic Pumping mechanism](#block-diagram-of-the-pneumatic-pumping-mechanism)
+        + [Mechanical Diagram of the Pneumatic Pumping mechanism](#mechanical-diagram-of-the-pneumatic-pumping-mechanism)
+
+    * [Electronic and Software system as Built](#electronic-and-software-system-as-built)
+        + [Schematic diagram of the Electrical Components of the Pneumatic Pumping mechanism](#schematic-diagram-of-the-electrical-components-of-the-pneumatic-pumping-mechanism)
+        + [Electrical diagram of the Pneumatic Pumping mechanism](#electrical-diagram-of-the-pneumatic-pumping-mechanism)
+    * [Code](#code)
 - [Design Implementation](#design-implementation)
 - [Performance Analysis](#performance-analysis)
 - [Where would our project go next](#where-would-our-project-go-next)
 - [Project Management](#project-management)
-    + [Work Distribution](#work-distribution)
+    * [Work Distribution](#work-distribution)
 - [Financial Management](#financial-management)
 - [Reflection](#reflection)
-    + [Jonathan Blumenfeld](#jonathan-blumenfeld)
-    + [Shivani Joshi](#shivani-joshi)
-    + [Priyam Shah](#priyam-shah)
-    + [Areeba Abidi](#areeba-abidi)
+    * [Jonathan Blumenfeld](#jonathan-blumenfeld)
+    * [Shivani Joshi](#shivani-joshi)
+    * [Priyam Shah](#priyam-shah)
+    * [Areeba Abidi](#areeba-abidi)
+- [Acknowledgment and Appreciation] (#acknowledgment-and-appreciation)
 - [References](#references)
     
     <br>
@@ -139,6 +142,10 @@ We plan on placing the air prep unit and the solenoid valve together at a locati
 </li>
 <li>
 In trying to make our design portable we realized that making a compact carriabble ventilator would not be technically feasible because of special orientation requirements of the air prep unit (only ± 5°deflection from 90° allowed) so we opted to make a semi-portable design. Our design will be restricted to the ambulance but will allow the automated BVM pumping mechanism to be brought to a patient wherever they are situated, regardless of the height or placement of their bed. Our design does not require the medical professionals to provide extensions to the endotracheal tube or mask end, to connect with the BVM as we make sure our system enables all functionalities and conveniences a manual BVM provides. </li>  
+
+#### Mechanical Diagram of the Pneumatic Pumping mechanism
+
+<img src="images/diagrams/Final_blockdiagram.png" alt=" " >
 
 
 #### Block diagram of the Pneumatic Pumping mechanism
