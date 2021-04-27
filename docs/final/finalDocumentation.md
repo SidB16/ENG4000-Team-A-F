@@ -285,6 +285,7 @@ Attached is the 15-minute video for our [design implementation.](https://www.you
 Although we are an agile team, for the winter semester we modified our project management style, using a waterfall-agile hybrid approach for the alpha release, and an agile approach for the beta and final release.  
 
 The alpha release consisted of exploring different design pumping mechanisms to automate the BVM. The sprints during the alpha release were mainly based on researching into the different pumping mechanisms and discuss the design ideas by consulting different industrial experts.
+
 Here is a snapshot of the Alpha release Sprint Planning board:
 
 <img src="images/management/man1.png" alt=" " >
@@ -366,25 +367,84 @@ On a more practical level, I would advise myself to get in contact with mechanic
 </li>
 </ul>
 
-#### Shivani Joshi
+#### [Shivani Joshi](https://youtu.be/R7sIbKhGJ5M)
+<ul>
+    
+    <li>
+         The Capstone journey has been full of many firsts for me, each accompanied with lessons and trials of their own. However, I am extremely glad for discussing my proposal for an automated BVM, with the course directors. 
+    </li>
+    
+    <li>
+    I got the valuable experience of working as a requirements elicitor, product owner in an agile setup, lead product designer, solution architect and assembler on a project that incorporated mechanical, electrical, structural and computer engineering engagements. 
+    </li>
+    
+    <li>
+    I was able to invest time in studying and applying the Agile methodology, a skill essential to have as a soon to graduate Computer Engineer. It gave me an insight into how intriguing and demanding the role of a Product Owner is, especially since I worked very closely with one during my Internship terms as an API Developer. I also got the opportunity to learn 3D Modeling using SolidWorks to realize the design in my thoughts, learning how to 3D print the design helped make these ideas tangible. I also got the chance to work on a large chunk of technical and design documentation for the Pneumatic, Electrical and Software based elements. Furthermore, while working on implementing the pnuematic design, while talking to Franz we recognized that working as a pure Agile team was not practical and hence we pivoted to more of a Agile-Waterfall Hybrid model of Project Management instead. This decision helped us navigate our deliverables timeline with more ease when our the shipment of our parts got delayed several times.
+    </li>
+    
+    <li>
+    I realized the importance of a diverse engineering team and the drawbacks of not having an assortment of expertises working towards building a product that can have a tremendous positive impact on the lives of many. If I could do it all over again, I would like to propose this challenge and tackle it under the C4 Capstone section. I believe that would still have contributed to my learning and growth yet made the journey less stressful. 
+    </li>
+    
+    <li>
+    Oftentimes I felt the pressure to gain extensive knowledge on technical processes related to engineering fields that are extremely essential to this project's success but ones I did not get the chance to learn about through my years at Lassonde. I, however, looked for experts that could help fill this gap in mastery, as the product owner, and built great relationships with industry professionals who were equally excited and passionate to see our goals to fruition. 
+    </li>
+    
+    <li>
+    Working on a small team in high stress circumstances, partly attributed to the Covid-19 Pandemic, the importance of being kind to myself and introspective of how the work might affect my mental health came to light. I believed a team that was passionate about their labour would work really well together, ultra focused on their collective goal in spite of some difference in opinions. This idea was shattered when I recognized the sheer difference in work ethic between certain members of the team and that individual’s perception of respect, passion and dedication could be divergent. In retrospect I would like to give an equally sincere consideration to assembling a team as I did to finalizing our project avenue.
+    </li>
+
+</ul>
 
 #### [Priyam Shah](https://www.youtube.com/watch?v=sFss77-MidA&ab_channel=Priyamshah)
 <ul>
 <li>
-This project journey has been a roller coaster of failures and successes.I worked with a team of all computer and software engineers but as we all wanted to work on a common goal we decided to merge our strengths and weaknesses to get to the final product.A lot of times I felt like it would have been nicer if there was a diverse team as our project was majorly mechanical. But that forced me to learn a lot throughout this journey.Not only was my behavioural skill set sharpened but also I learnt a lot of technical and hands on skills.In terms of behavioural skills I learnt good communication skills while engaging with the stakeholders, teammates and the supervisor. I improved on my time management skills due to the new project management technique of an agile fashion.In terms of technical skills, with little expertise in the mechanical upfront and electrical but throughout the course I learnt how to work with a 3D model software, how pneumatic pumping mechanism works as well as how to assemble components together.Even as a computer engineer, I never used a raspberry pi or a relay and so I understood the mechanism and the working behind it as to how it is connected and what it actually does.Moreover, in terms of general life skills I learnt to take criticism positively as well as not panic when something doesn't go right but figure out another way instead.
+This project journey has been a roller coaster of failures and successes. I worked with a team of all computer and software engineers but as we all wanted to work on a common goal we decided to merge our strengths and weaknesses to get to the final product. A lot of times I felt like it would have been nicer if there was a diverse team as our project was majorly mechanical. But that forced me to learn a lot throughout this journey. Not only was my behavioural skill set sharpened but also I learnt a lot of technical and hands on skills. In terms of behavioural skills I learnt good communication skills while engaging with the stakeholders, teammates and the supervisor. I improved on my time management skills due to the new project management technique of an agile fashion.In terms of technical skills, with little expertise in the mechanical upfront and electrical but throughout the course I learnt how to work with a 3D model software, how pneumatic pumping mechanism works as well as how to assemble components together. Even as a computer engineer, I never used a raspberry pi or a relay and so I understood the mechanism and the working behind it as to how it is connected and what it actually does. Moreover, in terms of general life skills I learnt to take criticism positively as well as not panic when something doesn't go right but figure out another way instead.
 </li>
 </ul>
 
 #### [Areeba Abidi](https://www.youtube.com/watch?v=XhSZAjDYGRk&ab_channel=AreebaAbidi)
 <ul>
 <li>
-This project journey has given me some great insights.Firstly I would want to mention how I got a chance to work on a project which is extensively mechanical based and I myself am a software engineer.I would have never imagined gaining expertise in terms of how learn softwares used for 3D designing, certain life skills like drilling, hammering, working on the electrical components as throughout my degree I never came across such courses.This course evolved me professionally too. I learnt about how agile management works and how scrum meetings are like. A lot of problem solving skills and analysis skills were showcased and polished.In terms of teamwork, I learnt that there can be conflicts and ups and downs but because of the understanding teammates I had it wasn't hard to resolve it. This course taught me how to be patient when something goes wrong and how to fix something creatively rather than using an easy way out such as ordering a new component.All these skills will help me in future and made a better version of myself for which I am grateful for.
+This project journey has given me some great insights. Firstly I would want to mention how I got a chance to work on a project which is extensively mechanical based and I myself am a software engineer. I would have never imagined gaining expertise in terms of how learn softwares used for 3D designing, certain life skills like drilling, hammering, working on the electrical components as throughout my degree I never came across such courses. This course evolved me professionally too. I learnt about how agile management works and how scrum meetings are like. A lot of problem solving skills and analysis skills were showcased and polished.In terms of teamwork, I learnt that there can be conflicts and ups and downs but because of the understanding teammates I had it wasn't hard to resolve it. This course taught me how to be patient when something goes wrong and how to fix something creatively rather than using an easy way out such as ordering a new component. All these skills will help me in future and made a better version of myself for which I am grateful for.
 </li>
 </ul>
 <br>
 
+***
 
+
+
+
+<img src="images/icons/thank-you.png" alt=" " width="100" height="100" >
+
+
+### Acknowledgement and Appreciation
+
+We would like to thank everyone involved in helping our team succeed in our Capstone journey.
+
+We would like to acknowledge, appreciate and  thank everyone involved in helping our team succeed in our Capstone journey, you have all had a role in making this product possible.
+
+Franz Newland: for taking us under his wings after a rushed proposal submission and approval at the start of them. You were a true mentor and support system for the team, we cannot appreciate all your technical, emotional and logistic support enough.
+
+Stakeholders: for educating us on the circumstances under which the health care systems in the United States, Canada and India are operating, their distinct challenges and strengths. For always making time to consult on our medical and infrastructure related queries. For providing feedback on the practicality of our final design and so much more.  
+Nimesh Joshi: for explaining how pneumatics work, providing technical feedback on the feasibility and appropriateness of our final design in the mechanical engineering perspective. Thank you tons for helping us make an essential part of our 3D model, proof our concept once ready and always being a phone call away to provide all types of engineering support.
+
+Florin Urban, Michael London and Eddy (Aztec Supply): for helping us actualize our design by proposing different approaches on implementation along with sourcing and delivering Festo products to our door at student discounted costs overnight. We can attribute the timely completion of our hardware implementations to your help.
+
+Melina Tahami and Hannah Yorke Gambhir (Capstone team C): for helping us learn SolidWorks and get our final design 3D printed, thank you so much for taking out the time to help us out.
+
+Course Directors, Claudia and TAs: We extremely appreciate all the considerations, feedback and support you provided us support throughout the term!
+
+
+To all team member’s friends and family that loaned or gifted various household items and available electrical components to the team through our product iterations. 
+
+
+
+***
 <img src="images/icons/references.png" alt=" " width="100" height="100" >
+
+
 
 ### References
 <div>Icons made by <a href="https://www.flaticon.com/authors/wanicon" title="wanicon">wanicon</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
