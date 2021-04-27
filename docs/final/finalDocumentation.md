@@ -214,8 +214,19 @@ We tried designing a barometer out of spare plastic tubing to compare the differ
 
 The patient’s safety, convenience and comfort have been the backbone principles driving our innovation so when it came to implementing and operating the electrical components, we were equally cautious. We checked the voltage and power threshold for each component and made sure to measure the voltage and current passing through them, using a multimeter, before the circuits were made, preventing a short circuit. 
 
+#### Code
 
+#### Schematic diagram of the Pneumatic Pumping mechanism
 
+<img src="images/diagrams/schematic.png" alt=" " >
+
+#### Electrical diagram of the Pneumatic Pumping mechanism
+
+<img src="images/diagrams/electrical-connections.png" alt=" " >
+
+#### Block diagram of the Pneumatic Pumping mechanism
+
+<img src="images/diagrams/Final_blockdiagram.png" alt=" " >
 
 
 
