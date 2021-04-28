@@ -182,7 +182,7 @@ Section focuses on product release timeline for Alpha and future releases.
 By [Siddharth Bhardwaj](https://github.com/SidB16), this is the Beta release of the system health reporting component of this project. Shows the website built in the beta release of this solution.
 
 ### [Beta Design](docs/gate5/Beta.md)
-Beta Release Context, Current status of design, and Roadmap for Final Release
+Beta Release Context, Current status of design, and Roadmap for Final Release.
 
 ***
 ### Final Release
@@ -191,4 +191,4 @@ Beta Release Context, Current status of design, and Roadmap for Final Release
 Built and documented by [Siddharth Bhardwaj](https://github.com/SidB16), this is the final release documentation of this end-to-end solution. This solution integrates with the automated pumping device (covered in subsequent sections) as a error reporting, and down-time mitigation component.
 
 ### [Automate - Automated BVM](docs/final/finalDocumentation.md)
-
+Final Release documentation that details the design as-built, future plans and the team's overall journey the course.
