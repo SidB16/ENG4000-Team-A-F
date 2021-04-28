@@ -3,6 +3,8 @@
 - [Design Architecture](#design-architecture)
     * [Pneumatic System as Built](#pneumatic-system-as-built)
         + [Mechanical Diagram of the Pneumatic Pumping mechanism](#mechanical-diagram-of-the-pneumatic-pumping-mechanism)
+        + [Mechanical Schematic of the Pneumatic Pumping mechanism](#mechanical-schematic-of-the-pneumatic-pumping-mechanism)
+
         + [Block diagram of the Pneumatic Pumping mechanism](#block-diagram-of-the-pneumatic-pumping-mechanism)
     * [Electronic and Software system as Built](#electronic-and-software-system-as-built)
         + [Schematic diagram of the Electrical Components of the Pneumatic Pumping mechanism](#schematic-diagram-of-the-electrical-components-of-the-pneumatic-pumping-mechanism)
@@ -145,6 +147,11 @@ In trying to make our design portable we realized that making a compact carriabb
 #### Mechanical Diagram of the Pneumatic Pumping mechanism
 
 <img src="images/diagrams/Festo_Design.png" alt=" " width="700" height="350" >
+
+
+#### Mechanical Schematic of the Pneumatic Pumping mechanism
+
+<img src="images/diagrams/Mechanical-Schematic.png" alt=" " width="300" height="600" >
 
 
 #### Block diagram of the Pneumatic Pumping mechanism
