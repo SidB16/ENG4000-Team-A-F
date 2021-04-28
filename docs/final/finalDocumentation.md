@@ -151,7 +151,7 @@ In trying to make our design portable we realized that making a compact carriabb
 
 #### Mechanical Schematic of the Pneumatic Pumping mechanism
 
-<img src="images/diagrams/Mechanical-Schematic.png" alt=" " width="300" height="600" >
+<img src="images/diagrams/Mechanical-Schematic.png" alt=" " width="450" height="600" >
 
 
 #### Block diagram of the Pneumatic Pumping mechanism
