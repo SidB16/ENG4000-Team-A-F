@@ -4,7 +4,7 @@
 
 Upon submitting our minimum viable product we re-evaluated our product using the stakeholder’s feedback and they advised us to stick to the initial requirements that we had established in preparation for the MVP. Although our design met the MVP requirement of being a crude pumping mechanism,we did not meet a bunch of requirements that were necessary to make our automated BVM design adaptive to an ambulance setup.
 
-The qualitative [requirments](https://sidb16.github.io/ENG4000-Team-A-F/docs/december_mvp/strengthlimitations.html?fbclid=IwAR0auV2aX04sTzhwhB5gf8ntYL8-wDvGZ1huASr8_dNgRyjyVtRmUNGc-9Y) we set were that the design had to be: 
+The qualitative [requirements](https://sidb16.github.io/ENG4000-Team-A-F/docs/december_mvp/strengthlimitations.html?fbclid=IwAR0auV2aX04sTzhwhB5gf8ntYL8-wDvGZ1huASr8_dNgRyjyVtRmUNGc-9Y) we set were that the design had to be: 
 <ul> 
   <li>Non-intrusive size</li>
   <li>Portable</li>
